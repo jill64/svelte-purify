@@ -1,2 +1,2 @@
-# svelte-purify
-💎 Safe html expansion for Svelte with DOMPurify
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
