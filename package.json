@@ -1,6 +1,7 @@
 {
   "name": "svelte-purify",
-  "description": "",
+  "description": "💎 Safe html expansion for Svelte with DOMPurify",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
@@ -8,7 +9,9 @@
   "bugs": "https://github.com/jill64/svelte-purify/issues",
   "homepage": "https://github.com/jill64/svelte-purify#readme",
   "files": [
-    "dist"
+    "dist",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "exports": {
     ".": {
@@ -21,7 +24,13 @@
     "type": "git",
     "url": "https://github.com/jill64/svelte-purify.git"
   },
-  "keywords": [],
+  "keywords": [
+    "dom",
+    "html",
+    "sanitize",
+    "svelte",
+    "xss"
+  ],
   "prettier": "@jill64/prettier-config",
   "scripts": {
     "dev": "vite dev",
