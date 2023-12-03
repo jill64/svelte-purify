@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Render } from '$lib/browser-only/index'
+  import { Render } from '$lib'
   import { code } from './code'
 </script>
 
