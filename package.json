@@ -1,7 +1,7 @@
 {
   "name": "svelte-purify",
   "description": "💎 Safe html expansion for Svelte with DOMPurify",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
