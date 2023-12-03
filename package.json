@@ -32,6 +32,7 @@
   "keywords": [
     "dom",
     "html",
+    "node",
     "sanitize",
     "svelte",
     "xss"
