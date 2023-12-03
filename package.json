@@ -55,7 +55,7 @@
     "@jill64/eslint-config-svelte": "0.0.6",
     "@jill64/playwright-config": "0.0.1",
     "@jill64/prettier-config": "0.0.2",
-    "@jill64/sentry-sveltekit-cloudflare": "1.4.2",
+    "@jill64/sentry-sveltekit-cloudflare": "1.5.0",
     "@playwright/test": "1.40.1",
     "@sveltejs/adapter-cloudflare": "2.3.3",
     "@sveltejs/kit": "1.27.6",
