@@ -14,6 +14,11 @@
     "!*.spec.*"
   ],
   "exports": {
+    "./browser-only": {
+      "types": "./dist/browser-only/index.d.ts",
+      "svelte": "./dist/browser-only/index.js",
+      "default": "./dist/browser-only/index.js"
+    },
     ".": {
       "types": "./dist/index.d.ts",
       "svelte": "./dist/index.js",
@@ -59,6 +64,6 @@
     "vite": "5.0.4"
   },
   "dependencies": {
-    "universal-dompurify": "0.2.0"
+    "universal-dompurify": "0.4.0"
   }
 }
