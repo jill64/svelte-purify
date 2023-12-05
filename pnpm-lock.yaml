@@ -21,16 +21,16 @@ devDependencies:
     version: 1.0.0
   '@jill64/sentry-sveltekit-edge':
     specifier: 0.0.1
-    version: 0.0.1(@sveltejs/kit@1.27.6)
+    version: 0.0.1(@sveltejs/kit@1.27.7)
   '@playwright/test':
     specifier: 1.40.1
     version: 1.40.1
   '@sveltejs/adapter-vercel':
     specifier: 3.1.0
-    version: 3.1.0(@sveltejs/kit@1.27.6)
+    version: 3.1.0(@sveltejs/kit@1.27.7)
   '@sveltejs/kit':
-    specifier: 1.27.6
-    version: 1.27.6(svelte@4.2.8)(vite@5.0.5)
+    specifier: 1.27.7
+    version: 1.27.7(svelte@4.2.8)(vite@5.0.5)
   svelte:
     specifier: 4.2.8
     version: 4.2.8
@@ -547,12 +547,12 @@ packages:
     resolution: {integrity: sha512-KuryQDStqkQ/zKR9Q7JXiW927m7SvwirQo6Oohss1Q9cRyYS2JOyhtcBavZnoEhH4pHJkaigfjUXA3em4n6egA==}
     dev: true
 
-  /@jill64/sentry-sveltekit-edge@0.0.1(@sveltejs/kit@1.27.6):
+  /@jill64/sentry-sveltekit-edge@0.0.1(@sveltejs/kit@1.27.7):
     resolution: {integrity: sha512-6C5yltb9MXBKVOXFzttw6h44yCU74h1sntpzzBCm3ZIh0bbRkvUYxgIyosAXpxU8G3WNEgLEeyRUbR8rnaGJQQ==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
-      '@sveltejs/kit': 1.27.6(svelte@4.2.8)(vite@5.0.5)
+      '@sveltejs/kit': 1.27.7(svelte@4.2.8)(vite@5.0.5)
     dev: true
 
   /@jridgewell/gen-mapping@0.3.3:
@@ -740,12 +740,12 @@ packages:
     dev: true
     optional: true
 
-  /@sveltejs/adapter-vercel@3.1.0(@sveltejs/kit@1.27.6):
+  /@sveltejs/adapter-vercel@3.1.0(@sveltejs/kit@1.27.7):
     resolution: {integrity: sha512-AkG7GuqPj/70zxfuOV7QbxXVuYFPUlyFEPlGUSXynDbIBTYu1Er+c676M2egnAyw0flB+kpj6nlxJIElRLKAaA==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
-      '@sveltejs/kit': 1.27.6(svelte@4.2.8)(vite@5.0.5)
+      '@sveltejs/kit': 1.27.7(svelte@4.2.8)(vite@5.0.5)
       '@vercel/nft': 0.24.4
       esbuild: 0.18.20
     transitivePeerDependencies:
@@ -753,8 +753,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit@1.27.6(svelte@4.2.8)(vite@5.0.5):
-    resolution: {integrity: sha512-GsjTkMbKzXdbeRg0tk8S7HNShQ4879ftRr0ZHaZfjbig1xQwG57Bvcm9U9/mpLJtCapLbLWUnygKrgcLISLC8A==}
+  /@sveltejs/kit@1.27.7(svelte@4.2.8)(vite@5.0.5):
+    resolution: {integrity: sha512-AzXYDoYt42clCBwLF9GTHsXyg2DFR31Ncyt8yxu8Aw4tgB433V+w+hcr1RTfAN9zKW2J2PY9FMQ8FoX/4Vw8CA==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
