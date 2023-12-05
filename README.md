@@ -6,10 +6,4 @@
 
 💎 Safe html expansion for Svelte with DOMPurify
 
-## Installation
-
-```sh
-npm i svelte-purify
-```
-
 <!----- END GHOST DOCS HEADER ----->
