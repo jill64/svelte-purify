@@ -65,6 +65,6 @@
     "vite": "5.0.5"
   },
   "dependencies": {
-    "universal-dompurify": "0.4.1"
+    "universal-dompurify": "1.0.0"
   }
 }
