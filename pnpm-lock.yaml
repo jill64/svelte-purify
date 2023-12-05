@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   universal-dompurify:
-    specifier: 0.4.1
-    version: 0.4.1
+    specifier: 1.0.0
+    version: 1.0.0
 
 devDependencies:
   '@jill64/eslint-config-svelte':
@@ -2591,8 +2591,8 @@ packages:
       '@fastify/busboy': 2.1.0
     dev: true
 
-  /universal-dompurify@0.4.1:
-    resolution: {integrity: sha512-aGVFiDY9xR8RQZ26SJsOdfvwvXrloJu2GcrgVeNypo63bbIciJ+r8YBvA98iYN+TtH4wKbwgNNvdkq551cLiUA==}
+  /universal-dompurify@1.0.0:
+    resolution: {integrity: sha512-6IdloFe0SG1MgSk5XltunYc6k74Z5F3DWFmFq7e7f2Dpa4g+zwXM6iKhkPfSZ/ST52w/jvrZdtKhCT9eSd3R8A==}
     dependencies:
       '@types/dompurify': 3.0.5
       dompurify: 3.0.6
