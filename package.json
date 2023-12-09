@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.0.1",
-    "@jill64/playwright-config": "1.4.1",
+    "@jill64/playwright-config": "1.4.2",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-edge": "0.1.0",
     "@playwright/test": "1.40.1",
@@ -62,7 +62,7 @@
     "@sveltejs/kit": "1.27.7",
     "svelte": "4.2.8",
     "typescript": "5.3.3",
-    "vite": "5.0.6"
+    "vite": "5.0.7"
   },
   "dependencies": {
     "universal-dompurify": "1.0.0"
