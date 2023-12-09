@@ -7,3 +7,53 @@
 💎 Safe html expansion for Svelte with DOMPurify
 
 <!----- END GHOST DOCS HEADER ----->
+
+## Installation
+
+```sh
+npm i svelte-purify
+```
+
+## Usage
+
+```svelte
+<script>
+  import { Render } from 'svelte-purify'
+
+  const code = '<h1>Hello World</h1>'
+</script>
+
+<Render html={code} config={/* DOMPurify Config */} />
+
+<!-- Equivalent to {@html code} -->
+```
+
+## SSR
+
+`Render` uses DOMPurify internally and only works in the browser or at Node runtime.  
+There are two options for use in non-node environments such as the edge.
+
+1. Use Browser Only Entry Point
+
+In this case, html is not rendered on the server.
+
+```svelte
+<script>
+  import { Render } from 'svelte-purify/browser-only'
+</script>
+
+<Render html={/* ... */} />
+```
+
+2. Use [`svelte-sanitize`](https://github.com/jill64/svelte-sanitize)
+
+Enables the use of html rendering in non-node environments at the expense of detailed compatibility.  
+Please check the link for details.
+
+```svelte
+<script>
+  import { Render } from 'svelte-sanitize'
+</script>
+
+<Render html={/* ... */} />
+```
