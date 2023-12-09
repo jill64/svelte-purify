@@ -31,9 +31,22 @@ npm i svelte-purify
 ## SSR
 
 `Render` uses DOMPurify internally and only works in the browser or at Node runtime.  
-There are two options for use in non-node environments such as the edge.
+There are 3 options for use in non-node environments such as the edge.
 
-1. Use Browser Only Entry Point
+1. Use [`svelte-sanitize`](https://github.com/jill64/svelte-sanitize)
+
+Enables the use of html rendering in non-node environments at the expense of detailed compatibility.  
+Please check the link for details.
+
+```svelte
+<script>
+  import { Render } from 'svelte-sanitize'
+</script>
+
+<Render html={/* ... */} />
+```
+
+2. Use Browser Only Entry Point
 
 In this case, html is not rendered on the server.
 
@@ -45,15 +58,20 @@ In this case, html is not rendered on the server.
 <Render html={/* ... */} />
 ```
 
-2. Use [`svelte-sanitize`](https://github.com/jill64/svelte-sanitize)
+3. Manual Config
 
-Enables the use of html rendering in non-node environments at the expense of detailed compatibility.  
-Please check the link for details.
+Conditional Exports is not yet fully supported, so `2.` may not work.  
+Sacrificing bundle size avoids this problem.
+
+```sh
+npm i dompurify
+```
 
 ```svelte
 <script>
-  import { Render } from 'svelte-sanitize'
+  import { browser } from '$app/environment'
+  import DOMPurify from 'dompurify'
 </script>
 
-<Render html={/* ... */} />
+{@html browser ? DOMPurify.sanitize(/* ... */) : 'server-fallback-value'}
 ```
