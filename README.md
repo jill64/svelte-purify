@@ -16,6 +16,8 @@ npm i svelte-purify
 
 ## Usage
 
+See [`DOMPurify`](https://github.com/cure53/DOMPurify#readme) for detailed settings.
+
 ```svelte
 <script>
   import { Render } from 'svelte-purify'
