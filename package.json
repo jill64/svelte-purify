@@ -5,7 +5,12 @@
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/svelte-purify/issues",
   "homepage": "https://github.com/jill64/svelte-purify#readme",
   "files": [
@@ -27,7 +32,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/svelte-purify.git"
+    "url": "https://github.com/jill64/svelte-purify.git",
+    "image": "https://opengraph.githubassets.com/724edf6a414a966f238907af22866c11a47edd5e1deb2c0c3967b5ebae55a26e/jill64/svelte-purify"
   },
   "keywords": [
     "dom",
