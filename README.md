@@ -2,7 +2,7 @@
 
 # svelte-purify
 
-[![npm-version](https://img.shields.io/npm/v/svelte-purify)](https://npmjs.com/package/svelte-purify) [![npm-license](https://img.shields.io/npm/l/svelte-purify)](https://npmjs.com/package/svelte-purify) [![npm-download-month](https://img.shields.io/npm/dm/svelte-purify)](https://npmjs.com/package/svelte-purify) [![npm-min-size](https://img.shields.io/bundlephobia/min/svelte-purify)](https://npmjs.com/package/svelte-purify) [![ci.yml](https://github.com/jill64/svelte-purify/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/svelte-purify/actions/workflows/ci.yml)
+<!----- BEGIN GHOST DOCS BADGES -----><a href="https://npmjs.com/package/svelte-purify"><img src="https://img.shields.io/npm/v/svelte-purify" alt="npm-version" /></a> <a href="https://npmjs.com/package/svelte-purify"><img src="https://img.shields.io/npm/l/svelte-purify" alt="npm-license" /></a> <a href="https://npmjs.com/package/svelte-purify"><img src="https://img.shields.io/npm/dm/svelte-purify" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/svelte-purify"><img src="https://img.shields.io/bundlephobia/min/svelte-purify" alt="npm-min-size" /></a> <a href="https://github.com/jill64/svelte-purify/actions/workflows/ci.yml"><img src="https://github.com/jill64/svelte-purify/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a><!----- END GHOST DOCS BADGES ----->
 
 💎 Safe html expansion for Svelte with DOMPurify
 
