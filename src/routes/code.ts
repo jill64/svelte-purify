@@ -1,13 +1,10 @@
-export const code = /* html */ `
-<header>
-  <h1>svelte-purify</h1>
-  <p>💎 Use DOMPurify for some context by conditional exports</p>
-  <a href="https://github.com/jill64/svelte-purify">
-    GitHub
-  </a>
-</header>
-
+export const code = () =>
+  /* html */ `
 <script>
-  alert('Find XSS vulnerability !!')
+  import { Render } from 'svelte-purify'
+  import { Render as RenderOnClient } from 'svelte-purify/browser-only'
 </script>
-`
+
+<Render html={'<h2>🌐 This is Render on Server</h2>'} />
+<RenderOnClient html={'<h2>💻 This is Render on Browser</h2>'} />
+`.trim()

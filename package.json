@@ -14,9 +14,7 @@
   "bugs": "https://github.com/jill64/svelte-purify/issues",
   "homepage": "https://github.com/jill64/svelte-purify#readme",
   "files": [
-    "dist",
-    "!*.test.*",
-    "!*.spec.*"
+    "dist"
   ],
   "exports": {
     "./browser-only": {
@@ -60,9 +58,11 @@
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.0.2",
+    "@jill64/npm-demo-layout": "0.2.4",
     "@jill64/playwright-config": "2.2.0",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-edge": "0.1.0",
+    "@jill64/universal-sanitizer": "1.0.0",
     "@playwright/test": "1.40.1",
     "@sveltejs/adapter-vercel": "3.1.0",
     "@sveltejs/kit": "1.29.0",

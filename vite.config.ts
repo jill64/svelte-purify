@@ -5,5 +5,10 @@ export default defineConfig({
   plugins: [sveltekit()],
   ssr: {
     noExternal: ['@jill64/sentry-sveltekit-edge']
+  },
+  server: {
+    fs: {
+      allow: ['.']
+    }
   }
 })
