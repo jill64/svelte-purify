@@ -8,6 +8,10 @@ test('smoke', async ({ page }) => {
   ).toBeVisible()
 
   await expect(
-    page.getByText('This is rendered only in the Browser')
+    page.getByRole('heading', { name: 'This is Render on Server' })
+  ).toBeVisible()
+
+  await expect(
+    page.getByRole('heading', { name: 'This is Render on Browser' })
   ).toBeVisible()
 })
