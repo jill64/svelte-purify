@@ -3,12 +3,13 @@
   import { Render as RenderOnClient } from '$lib/browser-only'
   import { HighlightSvelte } from '@jill64/npm-demo-layout/highlight'
   import { code } from './code'
+  import { injection } from './injection'
 </script>
 
 <main>
   <output>
-    <Render html={'<h2>🌐 This is Render on Server</h2>'} />
-    <RenderOnClient html={'<h2>💻 This is Render on Browser</h2>'} />
+    <Render html="<h2>🌐 This is Render on Server</h2>{injection}" />
+    <RenderOnClient html="<h2>💻 This is Render on Browser{injection}</h2>" />
   </output>
   <div>
     <HighlightSvelte code={code()} />
