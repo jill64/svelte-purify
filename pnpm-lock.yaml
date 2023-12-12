@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.2
     version: 1.0.2(svelte@4.2.8)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 0.3.0
-    version: 0.3.0(@sveltejs/kit@1.29.0)(svelte@4.2.8)
+    specifier: 0.3.1
+    version: 0.3.1(@sveltejs/kit@1.29.0)(svelte@4.2.8)
   '@jill64/playwright-config':
     specifier: 2.2.0
     version: 2.2.0(@playwright/test@1.40.1)
@@ -577,8 +577,8 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@0.3.0(@sveltejs/kit@1.29.0)(svelte@4.2.8):
-    resolution: {integrity: sha512-m5MMkKtULEtZ+c39RanYWZOBJ1FRvNkmmNOXGbk1tGxnEUOiELCgPp47O0LXXEP06zoktqZOmrOXhpPx/HuR+Q==}
+  /@jill64/npm-demo-layout@0.3.1(@sveltejs/kit@1.29.0)(svelte@4.2.8):
+    resolution: {integrity: sha512-dqn3yzNoaNzUSVeVfnEZXcVa0PwoGZyIyWC08v/84ggS8CLvrpQSzAp9xIZfx/+rDcuV3yv0sdO09E60p93j+w==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
