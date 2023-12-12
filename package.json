@@ -68,7 +68,7 @@
     "@sveltejs/kit": "1.29.0",
     "svelte": "4.2.8",
     "typescript": "5.3.3",
-    "vite": "5.0.7"
+    "vite": "5.0.8"
   },
   "dependencies": {
     "universal-dompurify": "1.0.0"
