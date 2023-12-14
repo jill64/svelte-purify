@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.3
     version: 1.0.3(svelte@4.2.8)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 0.3.6
-    version: 0.3.6(@sveltejs/kit@1.30.3)(svelte@4.2.8)
+    specifier: 0.3.7
+    version: 0.3.7(@sveltejs/kit@1.30.3)(svelte@4.2.8)
   '@jill64/playwright-config':
     specifier: 2.2.0
     version: 2.2.0(@playwright/test@1.40.1)
@@ -574,8 +574,8 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@0.3.6(@sveltejs/kit@1.30.3)(svelte@4.2.8):
-    resolution: {integrity: sha512-KHxd61BvSmbSzAQL7scy5Qs6MJe3cxmEUnRzA2vY2gbXWF2YwIRZulWyNwm6yylluzW48m0hsUga80o9BDGagA==}
+  /@jill64/npm-demo-layout@0.3.7(@sveltejs/kit@1.30.3)(svelte@4.2.8):
+    resolution: {integrity: sha512-Uzfyrqz5nEdVtVq9VxJoukBQqR9QAuBG/HPmFQjZIK3uPCa+k2GZRwDxOcyG4ob+vzJVecSRWWD/fyEcngt+5Q==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
@@ -586,7 +586,7 @@ packages:
       '@jill64/svelte-toast': 1.2.5(svelte@4.2.8)
       '@jill64/universal-sanitizer': 1.0.0
       svelte: 4.2.8
-      svelte-code-copy: 0.1.0(svelte@4.2.8)
+      svelte-code-copy: 0.1.2(@sveltejs/kit@1.30.3)(svelte@4.2.8)
       svelte-highlight: 7.4.2
       svelte-highlight-switcher: 1.0.0(svelte-highlight@7.4.2)(svelte@4.2.8)
     transitivePeerDependencies:
@@ -3289,14 +3289,17 @@ packages:
       ts-serde: 1.0.0
     dev: true
 
-  /svelte-code-copy@0.1.0(svelte@4.2.8):
-    resolution: {integrity: sha512-GiH1y5TRQK20UZ893LCQEkphnsQBWk+70mptrKMGJUp0D6yGGMaBJgv3HmSaSWUiPwoc/dcJykbfn82pByUomw==}
+  /svelte-code-copy@0.1.2(@sveltejs/kit@1.30.3)(svelte@4.2.8):
+    resolution: {integrity: sha512-Cx3cDBJp8Qseqjao2xzt89i9+6UTs+F2lyKQB5P1sVqdwQoxPkTlR39IRkCmI1hu3lzxEy+DZ7PB/m5wJM8ZUg==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
       '@jill64/async-observer': 1.2.0
       svelte: 4.2.8
       svelte-feather-icons: 4.0.1
+      svelte-hydrated: 0.0.1(@sveltejs/kit@1.30.3)(svelte@4.2.8)
+    transitivePeerDependencies:
+      - '@sveltejs/kit'
     dev: true
 
   /svelte-eslint-parser@0.33.1(svelte@4.2.8):
@@ -3353,6 +3356,16 @@ packages:
     peerDependencies:
       svelte: ^3.19.0 || ^4.0.0
     dependencies:
+      svelte: 4.2.8
+    dev: true
+
+  /svelte-hydrated@0.0.1(@sveltejs/kit@1.30.3)(svelte@4.2.8):
+    resolution: {integrity: sha512-mzK2Gs+Tylbfzhnuzq8AAlfa+Kc6UhCDwPwbjl3kmwgtCPn66+mSQbhEsqRduMmF2PpAPMuhKmvAC8qHllj2Pw==}
+    peerDependencies:
+      '@sveltejs/kit': ^1.0.0
+      svelte: ^4.0.0
+    dependencies:
+      '@sveltejs/kit': 1.30.3(svelte@4.2.8)(vite@5.0.8)
       svelte: 4.2.8
     dev: true
 
