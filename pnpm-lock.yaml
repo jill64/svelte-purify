@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.3
     version: 1.0.3(svelte@4.2.8)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 0.5.1
-    version: 0.5.1(@sveltejs/kit@2.0.0)(svelte@4.2.8)
+    specifier: 0.5.4
+    version: 0.5.4(@sveltejs/kit@2.0.0)(svelte@4.2.8)
   '@jill64/playwright-config':
     specifier: 2.2.0
     version: 2.2.0(@playwright/test@1.40.1)
@@ -374,8 +374,8 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@0.5.1(@sveltejs/kit@2.0.0)(svelte@4.2.8):
-    resolution: {integrity: sha512-dNTHzsTN2uWcBX0g+ywWyazhMrf7w40bn+WUHKOn79LDHvs3OMUfTlw7h7sa2386A7pFoEkD/dwnG3yXxZk+5Q==}
+  /@jill64/npm-demo-layout@0.5.4(@sveltejs/kit@2.0.0)(svelte@4.2.8):
+    resolution: {integrity: sha512-BSnMxlInLRv7rBILk8jBdrJ2O5N/U27DPgT68sCIsX7xTd2v7lr6O/zBU96rxy+uISC5t3qYSS5R1lQbzhZqKQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -388,7 +388,7 @@ packages:
       '@jill64/universal-sanitizer': 1.0.0
       '@sveltejs/kit': 2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.9)
       svelte: 4.2.8
-      svelte-code-copy: 0.2.0(@sveltejs/kit@2.0.0)(svelte@4.2.8)
+      svelte-code-copy: 1.0.0(@sveltejs/kit@2.0.0)(svelte@4.2.8)
       svelte-highlight: 7.4.2
       svelte-highlight-switcher: 1.1.0(svelte-highlight@7.4.2)(svelte@4.2.8)
     dev: true
@@ -3087,8 +3087,8 @@ packages:
       ts-serde: 1.0.0
     dev: true
 
-  /svelte-code-copy@0.2.0(@sveltejs/kit@2.0.0)(svelte@4.2.8):
-    resolution: {integrity: sha512-ki2T3JdWy8G4ZSuBtYCJgEkt4MBSmAwFj/+oQxecDAad5TSxw88OQtiK4RgASPkzW90R7APHD1Iuj0QuKUYLeA==}
+  /svelte-code-copy@1.0.0(@sveltejs/kit@2.0.0)(svelte@4.2.8):
+    resolution: {integrity: sha512-Sfms7SgIP/eUdV3fewIa7MDYunZWeoQWOUhz339ysvydJBGtYoLpBcsiVKX4yhVSdCD1V4BgGMXYlqiayRGhsA==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
