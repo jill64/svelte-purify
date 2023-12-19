@@ -77,3 +77,11 @@ npm i dompurify
 
 {@html browser ? DOMPurify.sanitize(/* ... */) : 'server-fallback-value'}
 ```
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
