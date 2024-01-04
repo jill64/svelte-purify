@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.10
     version: 1.0.10(svelte@4.2.8)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 1.0.26
-    version: 1.0.26(@sveltejs/kit@2.0.6)(svelte@4.2.8)
+    specifier: 1.0.27
+    version: 1.0.27(@sveltejs/kit@2.0.6)(svelte@4.2.8)
   '@jill64/playwright-config':
     specifier: 2.2.1
     version: 2.2.1(@playwright/test@1.40.1)
@@ -347,8 +347,8 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@1.0.26(@sveltejs/kit@2.0.6)(svelte@4.2.8):
-    resolution: {integrity: sha512-XQlOWRzAXFDjwDExzHhSWDnywB9YhmFGDbPNK0VmBQbVSc094w3T2YzwZQmUwnJxeNSyGchIChogN8kiHeIbyg==}
+  /@jill64/npm-demo-layout@1.0.27(@sveltejs/kit@2.0.6)(svelte@4.2.8):
+    resolution: {integrity: sha512-9QKLb/QuB1xsHUZSkvNcFYTUioO9+/gBzjnCLongmHR4qlPk5zJ+tMUQpwt6YjyP+h+VfDSuO8vzOMpWxMOllg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -356,7 +356,7 @@ packages:
       '@jill64/svelte-dark-theme': 2.3.11(@sveltejs/kit@2.0.6)(svelte@4.2.8)
       '@jill64/svelte-menu': 1.0.5(svelte@4.2.8)
       '@jill64/svelte-ogp': 1.1.4(@sveltejs/kit@2.0.6)(svelte@4.2.8)
-      '@jill64/svelte-sanitize': 1.1.3(svelte@4.2.8)
+      '@jill64/svelte-sanitize': 1.1.4(svelte@4.2.8)
       '@jill64/svelte-toast': 1.3.7(@sveltejs/kit@2.0.6)(svelte@4.2.8)
       '@jill64/universal-sanitizer': 1.0.0
       '@sveltejs/kit': 2.0.6(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.10)
@@ -447,12 +447,12 @@ packages:
       svelte: 4.2.8
     dev: true
 
-  /@jill64/svelte-sanitize@1.1.3(svelte@4.2.8):
-    resolution: {integrity: sha512-YCbGFrfqLo/b2t+YldEY3bssFXM4RVPMzKfzyGsWjJxnTv9ylB7p8ENoqBKqu5ZQXhsFmMCeiZVskuM0YdiGXA==}
+  /@jill64/svelte-sanitize@1.1.4(svelte@4.2.8):
+    resolution: {integrity: sha512-dO9Brzib7oynbqLTTdwhv1or2T3J+/S2SUL2H+JawkJsyfGoRMJOpr6ljrk+xCScyxW5zuX0k7C9WNKimP/B6A==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
-      '@jill64/universal-sanitizer': 1.0.0
+      '@jill64/universal-sanitizer': 1.0.1
       svelte: 4.2.8
     dev: true
 
