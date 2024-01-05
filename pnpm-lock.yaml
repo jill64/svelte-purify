@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.10
     version: 1.0.10(svelte@4.2.8)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 1.0.27
-    version: 1.0.27(@sveltejs/kit@2.0.6)(svelte@4.2.8)
+    specifier: 1.0.28
+    version: 1.0.28(@sveltejs/kit@2.0.6)(svelte@4.2.8)
   '@jill64/playwright-config':
     specifier: 2.2.1
     version: 2.2.1(@playwright/test@1.40.1)
@@ -347,8 +347,8 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@1.0.27(@sveltejs/kit@2.0.6)(svelte@4.2.8):
-    resolution: {integrity: sha512-9QKLb/QuB1xsHUZSkvNcFYTUioO9+/gBzjnCLongmHR4qlPk5zJ+tMUQpwt6YjyP+h+VfDSuO8vzOMpWxMOllg==}
+  /@jill64/npm-demo-layout@1.0.28(@sveltejs/kit@2.0.6)(svelte@4.2.8):
+    resolution: {integrity: sha512-Quu89d6Mwuq7X89r4fg/kAFpe2rcYyo4K5LO96Y6Mcd9dxffdNvhEKFQzoTBzKPOTLxiloThz5ufR4cX57Qljg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -362,8 +362,8 @@ packages:
       '@sveltejs/kit': 2.0.6(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.10)
       svelte: 4.2.8
       svelte-code-copy: 1.0.5(@sveltejs/kit@2.0.6)(svelte@4.2.8)
-      svelte-highlight: 7.4.7
-      svelte-highlight-switcher: 1.2.1(svelte-highlight@7.4.7)(svelte@4.2.8)
+      svelte-highlight: 7.4.8
+      svelte-highlight-switcher: 1.2.1(svelte-highlight@7.4.8)(svelte@4.2.8)
     dev: true
 
   /@jill64/playwright-config@2.2.1(@playwright/test@1.40.1):
@@ -2609,18 +2609,18 @@ packages:
       svelte-writable-derived: 3.1.0(svelte@4.2.8)
     dev: true
 
-  /svelte-highlight-switcher@1.2.1(svelte-highlight@7.4.7)(svelte@4.2.8):
+  /svelte-highlight-switcher@1.2.1(svelte-highlight@7.4.8)(svelte@4.2.8):
     resolution: {integrity: sha512-mCwKDfPkEhvnXI6YfGwfObZ+tBilyDBzO222XpGaacwFZqyQv/YTwMyXCb5vXitphozLNPFI1gGhc0xVlAal7A==}
     peerDependencies:
       svelte: ^4.0.0
       svelte-highlight: ^7.4.6
     dependencies:
       svelte: 4.2.8
-      svelte-highlight: 7.4.7
+      svelte-highlight: 7.4.8
     dev: true
 
-  /svelte-highlight@7.4.7:
-    resolution: {integrity: sha512-4PUIyfhhLkAe+iitARHLcRhWfFJJaFaszLxj9SA4Ob8CAZvM2mCuhUs04XKd44pBHYq2HK7WCNmddb5D3BuQsg==}
+  /svelte-highlight@7.4.8:
+    resolution: {integrity: sha512-KjXI+RwpBiDvwgZX9M0T6JpmAPhLjC4Gcks5qIDrFd7iO/pEBFR3B6qeMUTFIhxipHEPp/rC4/0enAvCQtHp+A==}
     dependencies:
       highlight.js: 11.9.0
     dev: true
