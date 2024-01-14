@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.13
     version: 1.0.13(svelte@4.2.8)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 1.0.33
-    version: 1.0.33(@sveltejs/kit@2.3.2)(svelte@4.2.8)
+    specifier: 1.0.34
+    version: 1.0.34(@sveltejs/kit@2.3.2)(svelte@4.2.8)
   '@jill64/playwright-config':
     specifier: 2.2.1
     version: 2.2.1(@playwright/test@1.40.1)
@@ -347,8 +347,8 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@1.0.33(@sveltejs/kit@2.3.2)(svelte@4.2.8):
-    resolution: {integrity: sha512-J9cMcGs6CyUvEVWg737zyM2l3Cp6hZaa/OURLSdR3uyVcglOP6azNu5Mq55exBfi2IQRA6e40z1hffdWKbdAmA==}
+  /@jill64/npm-demo-layout@1.0.34(@sveltejs/kit@2.3.2)(svelte@4.2.8):
+    resolution: {integrity: sha512-7oEmFDVgFm7Pc4EdiQLr5+Y6+uY70Zwcy/VsG0vQyRUd9uM1gtcJGi7VpWnsFk7qRKQWzlJUoWhNmpWDTWRbbw==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -358,7 +358,7 @@ packages:
       '@jill64/svelte-ogp': 1.1.4(@sveltejs/kit@2.3.2)(svelte@4.2.8)
       '@jill64/svelte-sanitize': 1.1.5(svelte@4.2.8)
       '@jill64/svelte-toast': 1.3.7(@sveltejs/kit@2.3.2)(svelte@4.2.8)
-      '@jill64/universal-sanitizer': 1.0.0
+      '@jill64/universal-sanitizer': 1.0.2
       '@sveltejs/kit': 2.3.2(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.11)
       svelte: 4.2.8
       svelte-code-copy: 1.0.5(@sveltejs/kit@2.3.2)(svelte@4.2.8)
@@ -499,15 +499,6 @@ packages:
     resolution: {integrity: sha512-bUm6Hlb+aCnTldvzqStUfIyLfub5apoT7x4ixfOSAjx/fijkSIJ+mM4/wQsI8FZ1BlfwPFeZT5UDb4cBHTaO6Q==}
     dependencies:
       ts-serde: 1.0.2
-    dev: true
-
-  /@jill64/universal-sanitizer@1.0.0:
-    resolution: {integrity: sha512-+9EGfkGxMv7cXUhYsP7XDdWSqUC63+ta8BiOFUj6MST84lTUSGscFOUSJU+kg6rCUeGp4zsqzRMIEEVsIFXGzA==}
-    dependencies:
-      '@types/dompurify': 3.0.5
-      '@types/sanitize-html': 2.9.5
-      dompurify: 3.0.6
-      sanitize-html: 2.11.0
     dev: true
 
   /@jill64/universal-sanitizer@1.0.2:
@@ -1395,10 +1386,6 @@ packages:
     engines: {node: '>= 4'}
     dependencies:
       domelementtype: 2.3.0
-    dev: true
-
-  /dompurify@3.0.6:
-    resolution: {integrity: sha512-ilkD8YEnnGh1zJ240uJsW7AzE+2qpbOUYjacomn3AvJ6J4JhKGSZ2nh4wUIXPZrEPppaCLx5jFe8T89Rk8tQ7w==}
     dev: true
 
   /dompurify@3.0.8:
