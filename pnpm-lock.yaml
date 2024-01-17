@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.14
     version: 1.0.14(svelte@4.2.8)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 1.0.44
-    version: 1.0.44(@sveltejs/kit@2.3.3)(svelte@4.2.8)
+    specifier: 1.0.45
+    version: 1.0.45(@sveltejs/kit@2.3.3)(svelte@4.2.8)
   '@jill64/playwright-config':
     specifier: 2.2.2
     version: 2.2.2(@playwright/test@1.41.0)
@@ -562,8 +562,8 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@1.0.44(@sveltejs/kit@2.3.3)(svelte@4.2.8):
-    resolution: {integrity: sha512-46sFEwmZc/HAHM5/3ZUCY1IkCV6zno7UpQHLXET2nLX+1yf2lvGnFsKefMlJmh/+6jNBQw0Ae1wxZZrPoXAl+w==}
+  /@jill64/npm-demo-layout@1.0.45(@sveltejs/kit@2.3.3)(svelte@4.2.8):
+    resolution: {integrity: sha512-KgJOTH626uhvcqlkc+KzANEJcn3CPrYBS3EDByK162SWPNuO2m2/FIEs1Mwb02qHejp+8n6sZlAu1jf+dh5KoQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -578,7 +578,7 @@ packages:
       svelte: 4.2.8
       svelte-code-copy: 1.0.7(@sveltejs/kit@2.3.3)(svelte@4.2.8)
       svelte-highlight: 7.4.8
-      svelte-highlight-switcher: 1.2.2(svelte-highlight@7.4.8)(svelte@4.2.8)
+      svelte-highlight-switcher: 1.2.3(svelte-highlight@7.4.8)(svelte@4.2.8)
     dev: true
 
   /@jill64/playwright-config@2.2.2(@playwright/test@1.41.0):
@@ -2913,8 +2913,8 @@ packages:
       svelte-writable-derived: 3.1.0(svelte@4.2.8)
     dev: true
 
-  /svelte-highlight-switcher@1.2.2(svelte-highlight@7.4.8)(svelte@4.2.8):
-    resolution: {integrity: sha512-dY2DyGZibqOBhtuWECsDosSuSmpGn6YL1bFvKV9vBQ0R2hcpIitMBYnh58gD/5CAGjOwjHK4PjUyA19pXyntZQ==}
+  /svelte-highlight-switcher@1.2.3(svelte-highlight@7.4.8)(svelte@4.2.8):
+    resolution: {integrity: sha512-jsKtJbTFoxX1KYWpkLE0j+5YFduudpGPGz9XxXJWZKfxsO6zepVw/hHFKD+pT8EodFwTGvq1xLaQLTvOW6CO2A==}
     peerDependencies:
       svelte: ^4.0.0
       svelte-highlight: ^7.4.6
