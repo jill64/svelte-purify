@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.14
     version: 1.0.14(svelte@4.2.9)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 1.0.45
-    version: 1.0.45(@sveltejs/kit@2.3.4)(svelte@4.2.9)
+    specifier: 1.0.46
+    version: 1.0.46(@sveltejs/kit@2.3.4)(svelte@4.2.9)
   '@jill64/playwright-config':
     specifier: 2.2.2
     version: 2.2.2(@playwright/test@1.41.0)
@@ -562,13 +562,13 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@1.0.45(@sveltejs/kit@2.3.4)(svelte@4.2.9):
-    resolution: {integrity: sha512-KgJOTH626uhvcqlkc+KzANEJcn3CPrYBS3EDByK162SWPNuO2m2/FIEs1Mwb02qHejp+8n6sZlAu1jf+dh5KoQ==}
+  /@jill64/npm-demo-layout@1.0.46(@sveltejs/kit@2.3.4)(svelte@4.2.9):
+    resolution: {integrity: sha512-zEwSg9tbierv7O1xIlhE2gbhKnvu/fo6IlfvZlrLeNtmF/OaXwRj4A0mqkwHVBRXSdUVJnUFw9/xSy3XPhaS2Q==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
     dependencies:
-      '@jill64/svelte-dark-theme': 2.3.16(@sveltejs/kit@2.3.4)(svelte@4.2.9)
+      '@jill64/svelte-dark-theme': 2.3.17(@sveltejs/kit@2.3.4)(svelte@4.2.9)
       '@jill64/svelte-menu': 1.0.7(svelte@4.2.9)
       '@jill64/svelte-ogp': 1.1.6(@sveltejs/kit@2.3.4)(svelte@4.2.9)
       '@jill64/svelte-sanitize': 1.1.6(svelte@4.2.9)
@@ -606,8 +606,8 @@ packages:
       - svelte
     dev: true
 
-  /@jill64/svelte-dark-theme@2.3.16(@sveltejs/kit@2.3.4)(svelte@4.2.9):
-    resolution: {integrity: sha512-b/1RJ87JnVhetMqql7s2ehyWehJAjH+IYGsPo5IwfBSE+eWKbp+ZsffBR9QORe+nHcWRxX3A1kXGnJ2kjIXfzQ==}
+  /@jill64/svelte-dark-theme@2.3.17(@sveltejs/kit@2.3.4)(svelte@4.2.9):
+    resolution: {integrity: sha512-HHUHMyRq37aszQFyLElisEw5MRL+Gq9cQmykNDqZ/dSw++R+kQzxUAgzJb+kGEbIkhFmB6OP65AF90A91IEWPA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -617,7 +617,7 @@ packages:
       '@jill64/svelte-storage': 1.1.5(@sveltejs/kit@2.3.4)(svelte@4.2.9)
       '@sveltejs/kit': 2.3.4(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.9)(vite@5.0.11)
       svelte: 4.2.9
-      svelte-baked-cookie: 1.0.7(@sveltejs/kit@2.3.4)(svelte@4.2.9)
+      svelte-baked-cookie: 1.0.8(@sveltejs/kit@2.3.4)(svelte@4.2.9)
       svelte-feather-icons: 4.1.0
       typescanner: 0.5.3
     dev: true
@@ -2854,8 +2854,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte-baked-cookie@1.0.7(@sveltejs/kit@2.3.4)(svelte@4.2.9):
-    resolution: {integrity: sha512-khLoO7DrvByo4WQJQ/VHilhw/HN25aSY8+Qzu03Ksvz6MlJ5CwSclQ6/fMvrk0M8q+waIN7w7Vn5Ws7gBOYEoQ==}
+  /svelte-baked-cookie@1.0.8(@sveltejs/kit@2.3.4)(svelte@4.2.9):
+    resolution: {integrity: sha512-1bD3O8SNKkNAVi3M0Ix4NuS0BoKWw4iVgxvO3dXHlvlIIreR8a4HVAEQLfKLsuA+Wk3jArNEoVDXucfdQdevew==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
