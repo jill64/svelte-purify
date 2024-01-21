@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.14
     version: 1.0.14(svelte@4.2.9)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 1.0.55
-    version: 1.0.55(@sveltejs/kit@2.4.1)(svelte@4.2.9)
+    specifier: 1.0.56
+    version: 1.0.56(@sveltejs/kit@2.4.1)(svelte@4.2.9)
   '@jill64/playwright-config':
     specifier: 2.2.2
     version: 2.2.2(@playwright/test@1.41.1)
@@ -356,15 +356,15 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@1.0.55(@sveltejs/kit@2.4.1)(svelte@4.2.9):
-    resolution: {integrity: sha512-VuN+IxC3kMKIm0cJ5RSoTIKH0sNXKn/uCX0aFlDYUPRG5C7wNoEceP+ZSwdPrzibgYJZMnxgMIhlFrHhhspVvA==}
+  /@jill64/npm-demo-layout@1.0.56(@sveltejs/kit@2.4.1)(svelte@4.2.9):
+    resolution: {integrity: sha512-PpPetTMVskIrymvQm1zjyjkOKZgHSnMckzQDuElvkDVvhrAcJ4DBS0ifFZRGUkuG4PLOuqWB3nEPdtCxJ0+L9Q==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
     dependencies:
       '@jill64/svelte-dark-theme': 2.3.19(@sveltejs/kit@2.4.1)(svelte@4.2.9)
       '@jill64/svelte-menu': 1.0.8(svelte@4.2.9)
-      '@jill64/svelte-ogp': 1.1.8(@sveltejs/kit@2.4.1)(svelte@4.2.9)
+      '@jill64/svelte-ogp': 1.1.9(@sveltejs/kit@2.4.1)(svelte@4.2.9)
       '@jill64/svelte-sanitize': 1.1.8(svelte@4.2.9)
       '@jill64/svelte-toast': 1.3.9(@sveltejs/kit@2.4.1)(svelte@4.2.9)
       '@jill64/universal-sanitizer': 1.1.0
@@ -448,8 +448,8 @@ packages:
       svelte: 4.2.9
     dev: true
 
-  /@jill64/svelte-html@1.1.4(@sveltejs/kit@2.4.1)(svelte@4.2.9):
-    resolution: {integrity: sha512-vrHuGliQDCFSDrch4IthINPEtfM8y6j1ywVm1VbFvFrK7LOveHFT7YXSiUVOyDwhvY/37IpjuT1PbdOjivvi4A==}
+  /@jill64/svelte-html@1.1.5(@sveltejs/kit@2.4.1)(svelte@4.2.9):
+    resolution: {integrity: sha512-v5pxCSCTD9lpNv6t3vkHFEWnHfCsqGqTfel5QhFwoLFL1Bs/zxInLGiG0uWjtGzIwoMv0q2dglm6m7D1+UDwLg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -466,13 +466,13 @@ packages:
       svelte: 4.2.9
     dev: true
 
-  /@jill64/svelte-ogp@1.1.8(@sveltejs/kit@2.4.1)(svelte@4.2.9):
-    resolution: {integrity: sha512-4yJ1wabeUs8GyLVd7+DFi9EDeTBQcfvAfO93jeHq1ckq9WiXbWJACqbQYkyXxE5SVhbpL2Wpv2d7itW3p+lbzA==}
+  /@jill64/svelte-ogp@1.1.9(@sveltejs/kit@2.4.1)(svelte@4.2.9):
+    resolution: {integrity: sha512-aoPkW5QJbhdvJ7kG9a7A1ZaK8sZFMneeBGuY/N3HlO8HaZCuHDncNpFUGuRnr8k0R+d7MvfI2+eZ5FDkJnEEDw==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
     dependencies:
-      '@jill64/svelte-html': 1.1.4(@sveltejs/kit@2.4.1)(svelte@4.2.9)
+      '@jill64/svelte-html': 1.1.5(@sveltejs/kit@2.4.1)(svelte@4.2.9)
       '@sveltejs/kit': 2.4.1(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.9)(vite@5.0.12)
       svelte: 4.2.9
     dev: true
