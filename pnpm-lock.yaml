@@ -26,8 +26,8 @@ devDependencies:
     specifier: 1.2.3
     version: 1.2.3(@sveltejs/kit@2.5.0)(svelte@4.2.9)
   '@jill64/universal-sanitizer':
-    specifier: 1.1.0
-    version: 1.1.0
+    specifier: 1.2.0
+    version: 1.2.0
   '@playwright/test':
     specifier: 1.41.2
     version: 1.41.2
@@ -489,16 +489,6 @@ packages:
       ts-serde: 1.0.2
     dev: true
 
-  /@jill64/universal-sanitizer@1.1.0:
-    resolution: {integrity: sha512-b5dBYYFgf8AClsfmwB5/txpyN3wfmLDZ9Sm1GBZdsvIphuxuQ3skofPSuGc7tGgwz1BeioBz/uXgZqdP8wk8Yw==}
-    dependencies:
-      '@types/dompurify': 3.0.5
-      '@types/sanitize-html': 2.9.5
-      dompurify: 3.0.8
-      postcss: 8.4.33
-      sanitize-html: 2.11.0
-    dev: true
-
   /@jill64/universal-sanitizer@1.2.0:
     resolution: {integrity: sha512-hBFaiXyjhNGGD2lNiIc0SlN9Wf1q9h4+QYgaki3vF6sSw3sXydvolicpkIIiCUIiTN56SmNXefc663mb9yWWUQ==}
     dependencies:
@@ -899,12 +889,6 @@ packages:
 
   /@types/sanitize-html@2.11.0:
     resolution: {integrity: sha512-7oxPGNQHXLHE48r/r/qjn7q0hlrs3kL7oZnGj0Wf/h9tj/6ibFyRkNbsDxaBBZ4XUZ0Dx5LGCyDJ04ytSofacQ==}
-    dependencies:
-      htmlparser2: 8.0.2
-    dev: true
-
-  /@types/sanitize-html@2.9.5:
-    resolution: {integrity: sha512-2Sr1vd8Dw+ypsg/oDDfZ57OMSG2Befs+l2CMyCC5bVSK3CpE7lTB2aNlbbWzazgVA+Qqfuholwom6x/mWd1qmw==}
     dependencies:
       htmlparser2: 8.0.2
     dev: true
