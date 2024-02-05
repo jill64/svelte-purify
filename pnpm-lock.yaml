@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.0.16
     version: 1.0.16(svelte@4.2.9)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 1.0.68
-    version: 1.0.68(@sveltejs/kit@2.5.0)(svelte@4.2.9)
+    specifier: 1.0.70
+    version: 1.0.70(@sveltejs/kit@2.5.0)(svelte@4.2.9)
   '@jill64/playwright-config':
     specifier: 2.2.3
     version: 2.2.3(@playwright/test@1.41.2)
@@ -356,8 +356,8 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@1.0.68(@sveltejs/kit@2.5.0)(svelte@4.2.9):
-    resolution: {integrity: sha512-aU8wBBXR76U5seQVyRhBBMbP56tr+iI9dyXyHgZi/c5HLzaP1X0QlcjvJUCpSjngzwn7TvVI9JndYGpNJAcWbw==}
+  /@jill64/npm-demo-layout@1.0.70(@sveltejs/kit@2.5.0)(svelte@4.2.9):
+    resolution: {integrity: sha512-5etCczKRVE9OtAfnr/aV/QHnLE9lFskSIpiIl4J0SRyG91hUK+zVPe5St3XoBlLqyahuZ0o1pO4qEFWeoyrUjw==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -365,9 +365,8 @@ packages:
       '@jill64/svelte-dark-theme': 2.3.23(@sveltejs/kit@2.5.0)(svelte@4.2.9)
       '@jill64/svelte-menu': 1.0.9(svelte@4.2.9)
       '@jill64/svelte-ogp': 1.1.9(@sveltejs/kit@2.5.0)(svelte@4.2.9)
-      '@jill64/svelte-sanitize': 1.2.0(svelte@4.2.9)
       '@jill64/svelte-toast': 1.3.13(@sveltejs/kit@2.5.0)(svelte@4.2.9)
-      '@jill64/universal-sanitizer': 1.1.0
+      '@jill64/universal-sanitizer': 1.2.0
       '@sveltejs/kit': 2.5.0(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.9)(vite@5.0.12)
       svelte: 4.2.9
       svelte-code-copy: 1.0.10(@sveltejs/kit@2.5.0)(svelte@4.2.9)
@@ -456,15 +455,6 @@ packages:
       svelte: 4.2.9
     dev: true
 
-  /@jill64/svelte-sanitize@1.2.0(svelte@4.2.9):
-    resolution: {integrity: sha512-NmCRLOUStK1y6D2lxMu9hmqvfGLJwS+P9Uxv2HYCd48nIApLx4CSkEixRdXCKljRfY4dCNtEOBHQuQaYbkZj7Q==}
-    peerDependencies:
-      svelte: ^4.0.0
-    dependencies:
-      '@jill64/universal-sanitizer': 1.1.0
-      svelte: 4.2.9
-    dev: true
-
   /@jill64/svelte-storage@1.1.7(@sveltejs/kit@2.5.0)(svelte@4.2.9):
     resolution: {integrity: sha512-iNeJh0jo4Fe2W/XAMGex6ilOET5W3Sr/81vaMO6tKWV6t12bdtGWBB95DNZIBMUBNbNIIgktFfL/RsNdkLIAyA==}
     peerDependencies:
@@ -506,6 +496,15 @@ packages:
       '@types/sanitize-html': 2.9.5
       dompurify: 3.0.8
       postcss: 8.4.33
+      sanitize-html: 2.11.0
+    dev: true
+
+  /@jill64/universal-sanitizer@1.2.0:
+    resolution: {integrity: sha512-hBFaiXyjhNGGD2lNiIc0SlN9Wf1q9h4+QYgaki3vF6sSw3sXydvolicpkIIiCUIiTN56SmNXefc663mb9yWWUQ==}
+    dependencies:
+      '@types/dompurify': 3.0.5
+      '@types/sanitize-html': 2.11.0
+      dompurify: 3.0.8
       sanitize-html: 2.11.0
     dev: true
 
@@ -896,6 +895,12 @@ packages:
 
   /@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
+    dev: true
+
+  /@types/sanitize-html@2.11.0:
+    resolution: {integrity: sha512-7oxPGNQHXLHE48r/r/qjn7q0hlrs3kL7oZnGj0Wf/h9tj/6ibFyRkNbsDxaBBZ4XUZ0Dx5LGCyDJ04ytSofacQ==}
+    dependencies:
+      htmlparser2: 8.0.2
     dev: true
 
   /@types/sanitize-html@2.9.5:
