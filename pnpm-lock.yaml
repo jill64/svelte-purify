@@ -14,8 +14,8 @@ devDependencies:
     specifier: 1.1.1
     version: 1.1.1(svelte@4.2.11)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 1.0.89
-    version: 1.0.89(@sveltejs/kit@2.5.0)(svelte@4.2.11)
+    specifier: 1.0.90
+    version: 1.0.90(@sveltejs/kit@2.5.0)(svelte@4.2.11)
   '@jill64/playwright-config':
     specifier: 2.2.3
     version: 2.2.3(@playwright/test@1.41.2)
@@ -354,14 +354,14 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@1.0.89(@sveltejs/kit@2.5.0)(svelte@4.2.11):
-    resolution: {integrity: sha512-gKas7k3d+/mZV5IMCAybQoXStA9cL0IyA4SHm5lOzDFwZhYGvGOcVhRiz3QU8UTfBxr23S+45ome5foALVUdWw==}
+  /@jill64/npm-demo-layout@1.0.90(@sveltejs/kit@2.5.0)(svelte@4.2.11):
+    resolution: {integrity: sha512-WhBRwPD/gX8Y/XOJ0eSoPkBw8VIcKTzQiDXGXBHLJMuX4ig0FfCIWEOXt940Cnosu0/imGmS5vm7oycWxe9PzQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
     dependencies:
       '@jill64/svelte-dark-theme': 2.3.32(@sveltejs/kit@2.5.0)(svelte@4.2.11)
-      '@jill64/svelte-menu': 1.0.10(svelte@4.2.11)
+      '@jill64/svelte-menu': 1.0.11(svelte@4.2.11)
       '@jill64/svelte-ogp': 1.1.11(@sveltejs/kit@2.5.0)(svelte@4.2.11)
       '@jill64/svelte-sanitize': 1.2.2(svelte@4.2.11)
       '@jill64/svelte-toast': 1.3.16(@sveltejs/kit@2.5.0)(svelte@4.2.11)
@@ -444,8 +444,8 @@ packages:
       svelte: 4.2.11
     dev: true
 
-  /@jill64/svelte-menu@1.0.10(svelte@4.2.11):
-    resolution: {integrity: sha512-+p1OEC75Z1xsylGpAU8gfC8AcxISV5ZPyY/u7s7qkdG/D+NqgUqT3JK+IcXO6yjOEamHpyXfe77INg5oWM/JWw==}
+  /@jill64/svelte-menu@1.0.11(svelte@4.2.11):
+    resolution: {integrity: sha512-qJXPdhBsPlTHC7VK8USVvhwL1iZMWiyufTQNN4QYSXhB+2q1Ygi3yCvZbwUBLzQ/GWzyXoz95mPkiESdHHvyNw==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
