@@ -11,8 +11,8 @@ dependencies:
 
 devDependencies:
   '@jill64/eslint-config-svelte':
-    specifier: 1.1.1
-    version: 1.1.1(svelte@4.2.11)(typescript@5.3.3)
+    specifier: 1.2.0
+    version: 1.2.0(svelte@4.2.11)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
     specifier: 1.0.93
     version: 1.0.93(@sveltejs/kit@2.5.0)(svelte@4.2.11)
@@ -333,8 +333,8 @@ packages:
     resolution: {integrity: sha512-IK0NpUnVdxTlZLgc24DmwZk1UsDCz3g8ZvmQVRFBph7cr55wQgpnj8cIrF7rvdFc4u9TR7fGOw0KWhcCRCahJQ==}
     dev: true
 
-  /@jill64/eslint-config-svelte@1.1.1(svelte@4.2.11)(typescript@5.3.3):
-    resolution: {integrity: sha512-TKzHi7JxT0oLx97v7lzCCMCgoA6e2iPRWFaJNz5dTkE4fpMPNYboph35OZAWjEcD5x1W4uBbTRIqsf3hFaAdLA==}
+  /@jill64/eslint-config-svelte@1.2.0(svelte@4.2.11)(typescript@5.3.3):
+    resolution: {integrity: sha512-KQkh/xwB+I9BQzOfMqTbqO0LeB5l+PcUug7ndD6OZh+EIExRUVn5EDLtrLZHOHz09LFzpOYsdvXMBcCqNYYB2Q==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
