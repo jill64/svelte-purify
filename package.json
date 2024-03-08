@@ -65,7 +65,7 @@
     "@jill64/universal-sanitizer": "1.2.3",
     "@playwright/test": "1.42.1",
     "@sveltejs/adapter-vercel": "5.1.0",
-    "@sveltejs/kit": "2.5.2",
+    "@sveltejs/kit": "2.5.3",
     "svelte": "4.2.12",
     "typescript": "5.4.2",
     "vite": "5.1.5",
