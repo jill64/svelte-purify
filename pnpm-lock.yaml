@@ -26,8 +26,8 @@ devDependencies:
     specifier: 1.2.8
     version: 1.2.8(@sveltejs/kit@2.5.4)(svelte@4.2.12)
   '@jill64/universal-sanitizer':
-    specifier: 1.2.6
-    version: 1.2.6
+    specifier: 1.2.7
+    version: 1.2.7
   '@playwright/test':
     specifier: 1.42.1
     version: 1.42.1
@@ -711,12 +711,12 @@ packages:
       sanitize-html: 2.12.1
     dev: true
 
-  /@jill64/universal-sanitizer@1.2.6:
-    resolution: {integrity: sha512-ANkLesANRIgVQNOd0Ua8izs38j2fFL21doXLD/lBhQnBoUPAC/QVRYO4zlz/mQUD8hbSL9LF73xwOYuu5y/WYw==}
+  /@jill64/universal-sanitizer@1.2.7:
+    resolution: {integrity: sha512-eoNSVaZHIPDYVxsP96+EW/nB/Ekhn6rn9iuV2tm2lyXFbP0TGzB1Zr547LlCcWQ0mGisjwSg0PHdyrG+ptKq3Q==}
     dependencies:
       '@types/dompurify': 3.0.5
       '@types/sanitize-html': 2.11.0
-      dompurify: 3.0.10
+      dompurify: 3.0.11
       sanitize-html: 2.13.0
     dev: true
 
@@ -1661,6 +1661,10 @@ packages:
 
   /dompurify@3.0.10:
     resolution: {integrity: sha512-WZDL8ZHTliEVP3Lk4phtvjg8SNQ3YMc5WVstxE8cszKZrFjzI4PF4ZTIk9VGAc9vZADO7uGO2V/ZiStcRSAT4Q==}
+
+  /dompurify@3.0.11:
+    resolution: {integrity: sha512-Fan4uMuyB26gFV3ovPoEoQbxRRPfTu3CvImyZnhGq5fsIEO+gEFLp45ISFt+kQBWsK5ulDdT0oV28jS1UrwQLg==}
+    dev: true
 
   /domutils@3.1.0:
     resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
