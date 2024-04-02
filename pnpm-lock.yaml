@@ -17,8 +17,8 @@ devDependencies:
     specifier: 1.0.146
     version: 1.0.146(@sveltejs/kit@2.5.5)(svelte@4.2.12)
   '@jill64/playwright-config':
-    specifier: 2.2.4
-    version: 2.2.4(@playwright/test@1.42.1)
+    specifier: 2.2.5
+    version: 2.2.5(@playwright/test@1.42.1)
   '@jill64/prettier-config':
     specifier: 1.0.0
     version: 1.0.0
@@ -858,8 +858,8 @@ packages:
       svelte-highlight-switcher: 1.2.8(svelte-highlight@7.6.0)(svelte@4.2.12)
     dev: true
 
-  /@jill64/playwright-config@2.2.4(@playwright/test@1.42.1):
-    resolution: {integrity: sha512-eV+G/WnrDEgaFMnegXmjaIpjfeKnfWU3YNcMwZsFn3QsoYJ+CS66gspqW2O2shxMbTAuJc2Dj7kPo402AKI+zA==}
+  /@jill64/playwright-config@2.2.5(@playwright/test@1.42.1):
+    resolution: {integrity: sha512-ocLz9JBblwNLysfs7jCMqcSy2mu0K/EOvQACzgOiwFnpZz+gZi1SCGrpgWP4jAET3YZ1sBM/Tk7NLf05C7pm5w==}
     peerDependencies:
       '@playwright/test': ^1.40.0
     dependencies:
