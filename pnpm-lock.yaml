@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   universal-dompurify:
-    specifier: 1.0.7
-    version: 1.0.7
+    specifier: 1.0.8
+    version: 1.0.8
 
 devDependencies:
   '@jill64/eslint-config-svelte':
@@ -2016,6 +2016,11 @@ packages:
 
   /dompurify@3.0.11:
     resolution: {integrity: sha512-Fan4uMuyB26gFV3ovPoEoQbxRRPfTu3CvImyZnhGq5fsIEO+gEFLp45ISFt+kQBWsK5ulDdT0oV28jS1UrwQLg==}
+    dev: true
+
+  /dompurify@3.1.0:
+    resolution: {integrity: sha512-yoU4rhgPKCo+p5UrWWWNKiIq+ToGqmVVhk0PmMYBK4kRsR3/qhemNFL8f6CFmBd4gMwm3F4T7HBoydP5uY07fA==}
+    dev: false
 
   /domutils@3.1.0:
     resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
@@ -3695,11 +3700,11 @@ packages:
       '@fastify/busboy': 2.1.1
     dev: true
 
-  /universal-dompurify@1.0.7:
-    resolution: {integrity: sha512-kNb/prE81ymkM+nWju4T6kt7gTZ20cs2gW2Z+ZNDG66rTGhaW8Tu1RuDi20bAAZL1xR+adluSBQRoSQiawanzg==}
+  /universal-dompurify@1.0.8:
+    resolution: {integrity: sha512-kF8RlpBf2+Q2NCSrhecLxNPRYOhI+kvPr5jgLfi1LVdLHyt66y6xhPA7ITiOizu0MPwkcnGQMoUf6YZDXCrvng==}
     dependencies:
       '@types/dompurify': 3.0.5
-      dompurify: 3.0.11
+      dompurify: 3.1.0
       jsdom: 24.0.0
     transitivePeerDependencies:
       - bufferutil
