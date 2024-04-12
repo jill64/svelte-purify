@@ -61,7 +61,7 @@
     "@jill64/npm-demo-layout": "1.0.163",
     "@jill64/playwright-config": "2.2.5",
     "@jill64/prettier-config": "1.0.0",
-    "@jill64/sentry-sveltekit-edge": "1.2.20",
+    "@jill64/sentry-sveltekit-edge": "1.2.21",
     "@jill64/universal-sanitizer": "1.2.8",
     "@playwright/test": "1.43.0",
     "@sveltejs/adapter-vercel": "5.2.0",
