@@ -25,8 +25,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0
       '@jill64/sentry-sveltekit-edge':
-        specifier: 1.2.21
-        version: 1.2.21(@sveltejs/kit@2.5.6(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30)))(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30)))(svelte@4.2.14)
+        specifier: 1.2.22
+        version: 1.2.22(@sveltejs/kit@2.5.6(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30)))(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30)))(svelte@4.2.14)
       '@jill64/universal-sanitizer':
         specifier: 1.2.8
         version: 1.2.8
@@ -434,8 +434,8 @@ packages:
   '@jill64/prettier-config@1.0.0':
     resolution: {integrity: sha512-KuryQDStqkQ/zKR9Q7JXiW927m7SvwirQo6Oohss1Q9cRyYS2JOyhtcBavZnoEhH4pHJkaigfjUXA3em4n6egA==}
 
-  '@jill64/sentry-sveltekit-edge@1.2.21':
-    resolution: {integrity: sha512-x+qfZTpj6+5gsCFnOV5Iy6vrKW8dV+0VD2fbCFaEwVn7zT4E3QKmxIup0aisyq0dMDziTOwCAzbM0FtgZE4Oag==}
+  '@jill64/sentry-sveltekit-edge@1.2.22':
+    resolution: {integrity: sha512-3uCvwqAw5wnbk9oE9jW5iwvi9qPjAX9CIFYVRtbY9/LjERintD4Wn/Chw3M+MxaZWeHsFP7ZNrC09fqZ+enudw==}
     peerDependencies:
       '@sveltejs/kit': 1.x || 2.x
 
@@ -606,46 +606,46 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@sentry-internal/feedback@7.110.0':
-    resolution: {integrity: sha512-hrfWa3WkSOiBO5Srcr1j4kuGOlbsQic+REpLOofllVIs56DOo9+Aj9svxT+dcvZERv/nlFSV/E0BfGy9g08IEg==}
+  '@sentry-internal/feedback@7.110.1':
+    resolution: {integrity: sha512-0aR3wuEW+SZKOVNamuy0pTQyPmqDjWPPLrB2GAXGT3ZjrVxjEzzVPqk6DVBYxSV2MuJaD507SZnvfoSPNgoBmw==}
     engines: {node: '>=12'}
 
-  '@sentry-internal/replay-canvas@7.110.0':
-    resolution: {integrity: sha512-SNa+AfyfX+vc6Xw0pIfDsa5Qnc9cpexU6M2D19gadtVhmep7qoFBuhBVZrSv6BtdCxvrb5EyYsHYGfjQdIDcvg==}
+  '@sentry-internal/replay-canvas@7.110.1':
+    resolution: {integrity: sha512-zdcCmWFXM4DHOau/BCZVb6jf9zozdbAiJ1MzQ6azuZEuysOl00YfktoWZBbZjjjpWT6025s+wrmFz54t0O+enw==}
     engines: {node: '>=12'}
 
-  '@sentry-internal/tracing@7.110.0':
-    resolution: {integrity: sha512-IIHHa9e/mE7uOMJfNELI8adyoELxOy6u6TNCn5t6fphmq84w8FTc9adXkG/FY2AQpglkIvlILojfMROFB2aaAQ==}
+  '@sentry-internal/tracing@7.110.1':
+    resolution: {integrity: sha512-4kTd6EM0OP1SVWl2yLn3KIwlCpld1lyhNDeR8G1aKLm1PN+kVsR6YB/jy9KPPp4Q3lN3W9EkTSES3qhP4jVffQ==}
     engines: {node: '>=8'}
 
-  '@sentry/browser@7.110.0':
-    resolution: {integrity: sha512-gIxedVm6ZgkjQfgCDgLWJgAsolq6OxV8hQ2j1+RaDL2RngvelFo/vlX5f2sD6EbjVp77Cri8u5GkMJF+v4p84g==}
+  '@sentry/browser@7.110.1':
+    resolution: {integrity: sha512-H3TZlbdsgxuoVxhotMtBDemvAofx3UPNcS+UjQ40Bd+hKX01IIbEN3i+9RQ0jmcbU6xjf+yhjwp+Ejpm4FmYMw==}
     engines: {node: '>=8'}
 
-  '@sentry/core@7.110.0':
-    resolution: {integrity: sha512-g4suCQO94mZsKVaAbyD1zLFC5YSuBQCIPHXx9fdgtfoPib7BWjWWePkllkrvsKAv4u8Oq05RfnKOhOMRHpOKqg==}
+  '@sentry/core@7.110.1':
+    resolution: {integrity: sha512-yC1yeUFQlmHj9u/KxKmwOMVanBmgfX+4MZnZU31QPqN95adyZTwpaYFZl4fH5kDVnz7wXJI0qRP8SxuMePtqhw==}
     engines: {node: '>=8'}
 
-  '@sentry/node@7.110.0':
-    resolution: {integrity: sha512-YPfweCSzo/omnx5q1xOEZfI8Em3jnPqj7OM4ObXmoSKEK+kM1oUF3BTRzw5BJOaOCSTBFY1RAsGyfVIyrwxWnA==}
+  '@sentry/node@7.110.1':
+    resolution: {integrity: sha512-n6sNzZJ/ChfyCI1FxuGWgloeevC8j2vax3vXM4IZrSIm5hS1d9L2oCJ4HEPuxGUxCkQ1f4kXPcdmNaQsWH0JBw==}
     engines: {node: '>=8'}
 
-  '@sentry/replay@7.110.0':
-    resolution: {integrity: sha512-EEpGPf3iBJjWejvoxKLVMnLtLNwPTUxHJV1oxUkbcSi3B/tG5hW7LArYDjAcvkfa4VmA8JLCwj2vYU5MQ8tj6g==}
+  '@sentry/replay@7.110.1':
+    resolution: {integrity: sha512-R49fGOuKYsJ97EujPTzMjs3ZSuSkLTFFQmVBbsu/o6beRp4kK9l8H7r2BfLEcWJOXdWO5EU4KpRWgIxHaDK2aw==}
     engines: {node: '>=12'}
 
-  '@sentry/svelte@7.110.0':
-    resolution: {integrity: sha512-yBAxgGGOrs3P3/mmeSERf95+VWhIvOwHbb/4nAXH0EG5hHLb0/1oG1ihXQnEsUexUdJ4Uj/DcdGL0hSMH+UOXA==}
+  '@sentry/svelte@7.110.1':
+    resolution: {integrity: sha512-w3RNhDlU6A3njWZNjFuN98xxsExorKetTA+WQKHd3BYreADuAoMkbPwLp4WI6QAx4BmMyZSLdKKCSp5vLbD3Kw==}
     engines: {node: '>=8'}
     peerDependencies:
       svelte: 3.x || 4.x
 
-  '@sentry/types@7.110.0':
-    resolution: {integrity: sha512-DqYBLyE8thC5P5MuPn+sj8tL60nCd/f5cerFFPcudn5nJ4Zs1eI6lKlwwyHYTEu5c4KFjCB0qql6kXfwAHmTyA==}
+  '@sentry/types@7.110.1':
+    resolution: {integrity: sha512-sZxOpM5gfyxvJeWVvNpHnxERTnlqcozjqNcIv29SZ6wonlkekmxDyJ3uCuPv85VO54WLyA4uzskPKnNFHacI8A==}
     engines: {node: '>=8'}
 
-  '@sentry/utils@7.110.0':
-    resolution: {integrity: sha512-VBsdLLN+5tf73fhf/Cm7JIsUJ6y9DkJj8h4I6Mxx0rszrvOyH6S5px40K+V4jdLBzMEvVinC7q2Cbf1YM18BSw==}
+  '@sentry/utils@7.110.1':
+    resolution: {integrity: sha512-eibLo2m1a7sHkOHxYYmRujr3D7ek2l9sv26F1SLoQBVDF7Afw5AKyzPmtA1D+4M9P/ux1okj7cGj3SaBrVpxXA==}
     engines: {node: '>=8'}
 
   '@sveltejs/adapter-vercel@5.3.0':
@@ -1435,8 +1435,8 @@ packages:
     engines: {node: '>=10.0.0'}
     hasBin: true
 
-  miniflare@3.20240405.1:
-    resolution: {integrity: sha512-oShOR/ckr9JTO1bkPQH0nXvuSgJjoE+E5+M1tvP01Q8Z+Q0GJnzU2+FDYUH8yIK/atHv7snU8yy0X6KWVn1YdQ==}
+  miniflare@3.20240405.2:
+    resolution: {integrity: sha512-n/V5m9GVMN37U5gWdrNXKx2d1icLXtcIKcxWtLslH4RTaebZJdSRmp12UHyuQsKlaSpTkNqyzLVtCEgt2bhRSA==}
     engines: {node: '>=16.13'}
     hasBin: true
 
@@ -2048,8 +2048,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@3.50.0:
-    resolution: {integrity: sha512-JlLuch+6DtaC5HGp8YD9Au++XvMv34g3ySdlB5SyPbaObELi8P9ZID5vgyf9AA75djzxL7cuNOk1YdKCJEuq0w==}
+  wrangler@3.51.0:
+    resolution: {integrity: sha512-1WVVbLTWeNP/djFjfctUkrMKbOdWyp/MrRAK6tefW3IgvQV8dEA9WU36GUIhnFhWLTQ2zHfg7jbaoP8n6ticrQ==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -2352,12 +2352,12 @@ snapshots:
 
   '@jill64/prettier-config@1.0.0': {}
 
-  '@jill64/sentry-sveltekit-edge@1.2.21(@sveltejs/kit@2.5.6(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30)))(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30)))(svelte@4.2.14)':
+  '@jill64/sentry-sveltekit-edge@1.2.22(@sveltejs/kit@2.5.6(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30)))(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30)))(svelte@4.2.14)':
     dependencies:
-      '@sentry/node': 7.110.0
-      '@sentry/svelte': 7.110.0(svelte@4.2.14)
+      '@sentry/node': 7.110.1
+      '@sentry/svelte': 7.110.1(svelte@4.2.14)
       '@sveltejs/kit': 2.5.6(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30)))(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30))
-      wrangler: 3.50.0
+      wrangler: 3.51.0
     transitivePeerDependencies:
       - '@cloudflare/workers-types'
       - bufferutil
@@ -2530,68 +2530,68 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.13.0':
     optional: true
 
-  '@sentry-internal/feedback@7.110.0':
+  '@sentry-internal/feedback@7.110.1':
     dependencies:
-      '@sentry/core': 7.110.0
-      '@sentry/types': 7.110.0
-      '@sentry/utils': 7.110.0
+      '@sentry/core': 7.110.1
+      '@sentry/types': 7.110.1
+      '@sentry/utils': 7.110.1
 
-  '@sentry-internal/replay-canvas@7.110.0':
+  '@sentry-internal/replay-canvas@7.110.1':
     dependencies:
-      '@sentry/core': 7.110.0
-      '@sentry/replay': 7.110.0
-      '@sentry/types': 7.110.0
-      '@sentry/utils': 7.110.0
+      '@sentry/core': 7.110.1
+      '@sentry/replay': 7.110.1
+      '@sentry/types': 7.110.1
+      '@sentry/utils': 7.110.1
 
-  '@sentry-internal/tracing@7.110.0':
+  '@sentry-internal/tracing@7.110.1':
     dependencies:
-      '@sentry/core': 7.110.0
-      '@sentry/types': 7.110.0
-      '@sentry/utils': 7.110.0
+      '@sentry/core': 7.110.1
+      '@sentry/types': 7.110.1
+      '@sentry/utils': 7.110.1
 
-  '@sentry/browser@7.110.0':
+  '@sentry/browser@7.110.1':
     dependencies:
-      '@sentry-internal/feedback': 7.110.0
-      '@sentry-internal/replay-canvas': 7.110.0
-      '@sentry-internal/tracing': 7.110.0
-      '@sentry/core': 7.110.0
-      '@sentry/replay': 7.110.0
-      '@sentry/types': 7.110.0
-      '@sentry/utils': 7.110.0
+      '@sentry-internal/feedback': 7.110.1
+      '@sentry-internal/replay-canvas': 7.110.1
+      '@sentry-internal/tracing': 7.110.1
+      '@sentry/core': 7.110.1
+      '@sentry/replay': 7.110.1
+      '@sentry/types': 7.110.1
+      '@sentry/utils': 7.110.1
 
-  '@sentry/core@7.110.0':
+  '@sentry/core@7.110.1':
     dependencies:
-      '@sentry/types': 7.110.0
-      '@sentry/utils': 7.110.0
+      '@sentry/types': 7.110.1
+      '@sentry/utils': 7.110.1
 
-  '@sentry/node@7.110.0':
+  '@sentry/node@7.110.1':
     dependencies:
-      '@sentry-internal/tracing': 7.110.0
-      '@sentry/core': 7.110.0
-      '@sentry/types': 7.110.0
-      '@sentry/utils': 7.110.0
+      '@sentry-internal/tracing': 7.110.1
+      '@sentry/core': 7.110.1
+      '@sentry/types': 7.110.1
+      '@sentry/utils': 7.110.1
 
-  '@sentry/replay@7.110.0':
+  '@sentry/replay@7.110.1':
     dependencies:
-      '@sentry-internal/tracing': 7.110.0
-      '@sentry/core': 7.110.0
-      '@sentry/types': 7.110.0
-      '@sentry/utils': 7.110.0
+      '@sentry-internal/tracing': 7.110.1
+      '@sentry/core': 7.110.1
+      '@sentry/types': 7.110.1
+      '@sentry/utils': 7.110.1
 
-  '@sentry/svelte@7.110.0(svelte@4.2.14)':
+  '@sentry/svelte@7.110.1(svelte@4.2.14)':
     dependencies:
-      '@sentry/browser': 7.110.0
-      '@sentry/core': 7.110.0
-      '@sentry/types': 7.110.0
-      '@sentry/utils': 7.110.0
+      '@sentry/browser': 7.110.1
+      '@sentry/core': 7.110.1
+      '@sentry/types': 7.110.1
+      '@sentry/utils': 7.110.1
       magic-string: 0.30.9
       svelte: 4.2.14
 
-  '@sentry/types@7.110.0': {}
+  '@sentry/types@7.110.1': {}
 
-  '@sentry/utils@7.110.0':
+  '@sentry/utils@7.110.1':
     dependencies:
-      '@sentry/types': 7.110.0
+      '@sentry/types': 7.110.1
 
   '@sveltejs/adapter-vercel@5.3.0(@sveltejs/kit@2.5.6(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30)))(svelte@4.2.14)(vite@5.2.9(@types/node@20.11.30)))':
     dependencies:
@@ -3538,7 +3538,7 @@ snapshots:
 
   mime@3.0.0: {}
 
-  miniflare@3.20240405.1:
+  miniflare@3.20240405.2:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       acorn: 8.11.2
@@ -4120,7 +4120,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20240405.0
       '@cloudflare/workerd-windows-64': 1.20240405.0
 
-  wrangler@3.50.0:
+  wrangler@3.51.0:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.1
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
@@ -4128,7 +4128,7 @@ snapshots:
       blake3-wasm: 2.1.5
       chokidar: 3.6.0
       esbuild: 0.17.19
-      miniflare: 3.20240405.1
+      miniflare: 3.20240405.2
       nanoid: 3.3.7
       path-to-regexp: 6.2.1
       resolve: 1.22.8
