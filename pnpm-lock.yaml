@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       universal-dompurify:
-        specifier: 1.0.8
-        version: 1.0.8
+        specifier: 1.0.9
+        version: 1.0.9
     devDependencies:
       '@jill64/eslint-config-svelte':
         specifier: 1.2.23
@@ -1035,6 +1035,9 @@ packages:
   dompurify@3.1.0:
     resolution: {integrity: sha512-yoU4rhgPKCo+p5UrWWWNKiIq+ToGqmVVhk0PmMYBK4kRsR3/qhemNFL8f6CFmBd4gMwm3F4T7HBoydP5uY07fA==}
 
+  dompurify@3.1.1:
+    resolution: {integrity: sha512-tVP8C/GJwnABOn/7cx/ymx/hXpmBfWIPihC1aOEvS8GbMqy3pgeYtJk1HXN3CO7tu+8bpY18f6isjR5Cymj0TQ==}
+
   domutils@3.1.0:
     resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
 
@@ -1945,8 +1948,8 @@ packages:
     resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
 
-  universal-dompurify@1.0.8:
-    resolution: {integrity: sha512-kF8RlpBf2+Q2NCSrhecLxNPRYOhI+kvPr5jgLfi1LVdLHyt66y6xhPA7ITiOizu0MPwkcnGQMoUf6YZDXCrvng==}
+  universal-dompurify@1.0.9:
+    resolution: {integrity: sha512-wqIDVXUs14LkUXEM3yMDJcPEWyP9ccwUylxJkY35Ri6pBdyVKuxAYqttvvD3M9ZNXkdigIxlmxgJLjbv/pRPrA==}
 
   universalify@0.2.0:
     resolution: {integrity: sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==}
@@ -3034,6 +3037,8 @@ snapshots:
 
   dompurify@3.1.0: {}
 
+  dompurify@3.1.1: {}
+
   domutils@3.1.0:
     dependencies:
       dom-serializer: 2.0.0
@@ -4022,10 +4027,10 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.1.1
 
-  universal-dompurify@1.0.8:
+  universal-dompurify@1.0.9:
     dependencies:
       '@types/dompurify': 3.0.5
-      dompurify: 3.1.0
+      dompurify: 3.1.1
       jsdom: 24.0.0
     transitivePeerDependencies:
       - bufferutil
