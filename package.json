@@ -59,7 +59,7 @@
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.2.24",
     "@jill64/npm-demo-layout": "1.0.186",
-    "@jill64/playwright-config": "2.2.5",
+    "@jill64/playwright-config": "2.2.6",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-edge": "1.2.25",
     "@jill64/universal-sanitizer": "1.2.10",
