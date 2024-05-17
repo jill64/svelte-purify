@@ -31,7 +31,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-purify.git",
-    "image": "https://opengraph.githubassets.com/3214e95833e6c840d026754dea2a6cdde22aec698e2e0d149ed8cedad9b1bcc3/jill64/svelte-purify"
+    "image": "https://opengraph.githubassets.com/f779a3394ba39252ab33a466ed18d543cc6791a2767e98a08372e5f0becdb62e/jill64/svelte-purify"
   },
   "keywords": [
     "dom",
@@ -61,7 +61,7 @@
     "@jill64/npm-demo-layout": "1.0.199",
     "@jill64/playwright-config": "2.3.0",
     "@jill64/prettier-config": "1.0.0",
-    "@jill64/sentry-sveltekit-edge": "1.2.28",
+    "@jill64/sentry-sveltekit-edge": "1.2.29",
     "@jill64/universal-sanitizer": "1.2.11",
     "@playwright/test": "1.44.0",
     "@sveltejs/adapter-vercel": "5.3.0",
