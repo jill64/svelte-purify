@@ -63,7 +63,7 @@
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-edge": "1.2.30",
     "@jill64/universal-sanitizer": "1.2.11",
-    "@playwright/test": "1.44.0",
+    "@playwright/test": "1.44.1",
     "@sveltejs/adapter-vercel": "5.3.0",
     "@sveltejs/kit": "2.5.10",
     "svelte": "4.2.17",
