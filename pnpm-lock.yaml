@@ -28,8 +28,8 @@ importers:
         specifier: 1.2.31
         version: 1.2.31(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.17)(vite@5.2.12(@types/node@20.11.30)))(svelte@4.2.17)(vite@5.2.12(@types/node@20.11.30)))(svelte@4.2.17)
       '@jill64/universal-sanitizer':
-        specifier: 1.2.12
-        version: 1.2.12
+        specifier: 1.2.13
+        version: 1.2.13
       '@playwright/test':
         specifier: 1.44.1
         version: 1.44.1
@@ -492,6 +492,9 @@ packages:
 
   '@jill64/universal-sanitizer@1.2.12':
     resolution: {integrity: sha512-wkv+w27D2AUyD0ub53VcF7jk6Ho9AQ34bA0esO91SwFjOsg7H6JMJXBr4iwsqOm87NpIkXP406ZzzvtBnzr+ZA==}
+
+  '@jill64/universal-sanitizer@1.2.13':
+    resolution: {integrity: sha512-RdyrBqxwAXnM2sXt4WXHjd11U549c8h7j4Bet2MVYe2QbwoqjA85jtk6faMr6AKOKLSgCmgRQUK8eu33eDxrlA==}
 
   '@jridgewell/gen-mapping@0.3.3':
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
@@ -1035,6 +1038,9 @@ packages:
 
   dompurify@3.1.4:
     resolution: {integrity: sha512-2gnshi6OshmuKil8rMZuQCGiUF3cUxHY3NGDzUAdUx/NPEe5DVnO8BDoAQouvgwnx0R/+a6jUn36Z0FSdq8vww==}
+
+  dompurify@3.1.5:
+    resolution: {integrity: sha512-lwG+n5h8QNpxtyrJW/gJWckL+1/DQiYMX8f7t8Z2AZTPw1esVrqjI63i7Zc2Gz0aKzLVMYC1V1PL/ky+aY/NgA==}
 
   domutils@3.1.0:
     resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
@@ -2431,6 +2437,13 @@ snapshots:
       dompurify: 3.1.4
       sanitize-html: 2.13.0
 
+  '@jill64/universal-sanitizer@1.2.13':
+    dependencies:
+      '@types/dompurify': 3.0.5
+      '@types/sanitize-html': 2.11.0
+      dompurify: 3.1.5
+      sanitize-html: 2.13.0
+
   '@jridgewell/gen-mapping@0.3.3':
     dependencies:
       '@jridgewell/set-array': 1.1.2
@@ -3040,6 +3053,8 @@ snapshots:
       domelementtype: 2.3.0
 
   dompurify@3.1.4: {}
+
+  dompurify@3.1.5: {}
 
   domutils@3.1.0:
     dependencies:
