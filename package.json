@@ -31,7 +31,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-purify.git",
-    "image": "https://opengraph.githubassets.com/6ca140f437ec05e136463b078df5767a1f9678666ea57a8bc901c3ac0d296de2/jill64/svelte-purify"
+    "image": "https://opengraph.githubassets.com/a34c702ec96a3a1fbedad5fdea95f8a6ba3ef27a677eb04cd55f2795538aee42/jill64/svelte-purify"
   },
   "keywords": [
     "dom",
@@ -67,7 +67,7 @@
     "@sveltejs/adapter-vercel": "5.3.1",
     "@sveltejs/kit": "2.5.17",
     "svelte": "4.2.18",
-    "typescript": "5.4.5",
+    "typescript": "5.5.2",
     "vite": "5.3.1",
     "@sveltejs/vite-plugin-svelte": "3.1.1"
   },
