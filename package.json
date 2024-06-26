@@ -1,7 +1,7 @@
 {
   "name": "svelte-purify",
   "description": "💎 Safe html expansion for Svelte with DOMPurify",
-  "version": "1.1.28",
+  "version": "1.1.29",
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
@@ -31,7 +31,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-purify.git",
-    "image": "https://opengraph.githubassets.com/f8451e1bd9791dc634ea3ea4fb6187a3b813bebbe7c030d9e08476479b13c099/jill64/svelte-purify"
+    "image": "https://opengraph.githubassets.com/bddb779b69f5856b31cf815a964707f72f8e3450108435e1981e05e55e76cad8/jill64/svelte-purify"
   },
   "keywords": [
     "dom",
@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.2.39",
-    "@jill64/npm-demo-layout": "1.0.218",
+    "@jill64/npm-demo-layout": "1.0.219",
     "@jill64/playwright-config": "2.3.1",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-edge": "1.2.37",
