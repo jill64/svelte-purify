@@ -16,8 +16,8 @@ importers:
         specifier: 1.3.3
         version: 1.3.3(svelte@4.2.18)(typescript@5.5.4)
       '@jill64/npm-demo-layout':
-        specifier: 1.0.237
-        version: 1.0.237(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)
+        specifier: 1.0.238
+        version: 1.0.238(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)
       '@jill64/playwright-config':
         specifier: 2.4.0
         version: 2.4.0(@playwright/test@1.45.3)
@@ -423,8 +423,8 @@ packages:
     peerDependencies:
       svelte: ^4.0.0
 
-  '@jill64/npm-demo-layout@1.0.237':
-    resolution: {integrity: sha512-9K76d2/ZwQXObHPCDPfMAc+5Vqs70tPI6kMXhAhN65k0IpSlBpNs4/rHDsOIT/6koUy9uuXPgWnuK2olhglD4A==}
+  '@jill64/npm-demo-layout@1.0.238':
+    resolution: {integrity: sha512-fE39SiC4rIjQP3VU0u3831UoIE2wk0VD/XEFv1VHKHFIBM/TPjJC0XUuuy3yd3+KyvDV8pd67cT+fzOAXjZEhQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -1816,8 +1816,8 @@ packages:
     peerDependencies:
       svelte: ^3.57.0 || ^4.0.0
 
-  svelte-highlight-switcher@1.2.14:
-    resolution: {integrity: sha512-oNn7nSc2YsEyTMRNsgXBzAu2WpCMmC51RLOuKgJdbz8Zi88HVSfylO1AazSrN+W6kMASiTLnhxPCEjdBu5y1dA==}
+  svelte-highlight-switcher@1.2.15:
+    resolution: {integrity: sha512-ras1oOZw+C/F6CJqrDyZ+tVVNS446fcrnhSlplgFb5fuWnk9JYFcCn1hE4TIGpKJ8rVQIze3HiRxSnqpUfoI4A==}
     peerDependencies:
       svelte: ^4.0.0
       svelte-highlight: ^7.4.6
@@ -2306,7 +2306,7 @@ snapshots:
       - ts-node
       - typescript
 
-  '@jill64/npm-demo-layout@1.0.237(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)':
+  '@jill64/npm-demo-layout@1.0.238(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)':
     dependencies:
       '@jill64/svelte-dark-theme': 2.3.88(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)
       '@jill64/svelte-menu': 1.0.25(svelte@4.2.18)
@@ -2317,7 +2317,7 @@ snapshots:
       svelte: 4.2.18
       svelte-code-copy: 1.0.31(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)(vite@5.3.4(@types/node@20.11.30)))(svelte@4.2.18)
       svelte-highlight: 7.7.0
-      svelte-highlight-switcher: 1.2.14(svelte-highlight@7.7.0)(svelte@4.2.18)
+      svelte-highlight-switcher: 1.2.15(svelte-highlight@7.7.0)(svelte@4.2.18)
 
   '@jill64/playwright-config@2.4.0(@playwright/test@1.45.3)':
     dependencies:
@@ -3843,7 +3843,7 @@ snapshots:
       svelte: 4.2.18
       svelte-writable-derived: 3.1.0(svelte@4.2.18)
 
-  svelte-highlight-switcher@1.2.14(svelte-highlight@7.7.0)(svelte@4.2.18):
+  svelte-highlight-switcher@1.2.15(svelte-highlight@7.7.0)(svelte@4.2.18):
     dependencies:
       svelte: 4.2.18
       svelte-highlight: 7.7.0
