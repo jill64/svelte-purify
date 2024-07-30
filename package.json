@@ -31,7 +31,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-purify.git",
-    "image": "https://opengraph.githubassets.com/24b53c7693bfa48901401a726c905bc7a253f68a229f3fd840dfa5fe107d279c/jill64/svelte-purify"
+    "image": "https://opengraph.githubassets.com/34f75d71a627a8ff74e29c1a21c9db6386bbf016ae5fa669fa573b62590654f3/jill64/svelte-purify"
   },
   "keywords": [
     "dom",
@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.3.5",
-    "@jill64/npm-demo-layout": "1.0.245",
+    "@jill64/npm-demo-layout": "1.0.246",
     "@jill64/playwright-config": "2.4.0",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-edge": "1.2.45",
