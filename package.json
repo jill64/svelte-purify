@@ -1,7 +1,7 @@
 {
   "name": "svelte-purify",
   "description": "💎 Safe html expansion for Svelte with DOMPurify",
-  "version": "1.1.34",
+  "version": "1.1.35",
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
@@ -31,7 +31,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-purify.git",
-    "image": "https://opengraph.githubassets.com/85f3fdcc849764ec7f15c0e568236f8dc0e26c07031b615a7d5286938a6a4d73/jill64/svelte-purify"
+    "image": "https://opengraph.githubassets.com/e66781facb58bee5ef340e52f002c7798b8ce622fb24ad69b5bbbf4bd3e31b30/jill64/svelte-purify"
   },
   "keywords": [
     "dom",
@@ -72,6 +72,6 @@
     "@sveltejs/vite-plugin-svelte": "3.1.2"
   },
   "dependencies": {
-    "universal-dompurify": "1.0.18"
+    "universal-dompurify": "1.0.19"
   }
 }
