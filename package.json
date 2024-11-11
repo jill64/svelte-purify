@@ -31,7 +31,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-purify.git",
-    "image": "https://opengraph.githubassets.com/57663f9f228c154b9b8116921fd9e4b5c0158963d83b5e631c1a6068c08a2833/jill64/svelte-purify"
+    "image": "https://opengraph.githubassets.com/da0cc930e554d0460e28d0a282feb817b786dac9d6a200f2059d17979c49f6e9/jill64/svelte-purify"
   },
   "keywords": [
     "dom",
