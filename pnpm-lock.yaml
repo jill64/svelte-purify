@@ -28,8 +28,8 @@ importers:
         specifier: 1.2.55
         version: 1.2.55(@sveltejs/kit@2.8.3(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(@types/node@20.11.30)))(svelte@4.2.19)(vite@5.4.8(@types/node@20.11.30)))(svelte@4.2.19)
       '@jill64/universal-sanitizer':
-        specifier: 1.3.4
-        version: 1.3.4
+        specifier: 1.3.5
+        version: 1.3.5
       '@playwright/test':
         specifier: 1.49.1
         version: 1.49.1
@@ -643,8 +643,8 @@ packages:
   '@jill64/universal-sanitizer@1.3.1':
     resolution: {integrity: sha512-boOML61GWk4Xqlq9ZSDGweOhRtYclSoVDh2OY8I182ievDOYrRDw51A/WtfU1J8+uEKeQIjvuCdtexX/26IEjQ==}
 
-  '@jill64/universal-sanitizer@1.3.4':
-    resolution: {integrity: sha512-SMYjz4BoAHOGvPZ7dj87pnCEW2rB9p7BT5wqSFZyz3GGREqVtD3iS1hHdp8Uh8EdbvcR9sgceLmdPOBGKpmA0g==}
+  '@jill64/universal-sanitizer@1.3.5':
+    resolution: {integrity: sha512-+DBH1mpsege9NyQOVTLPtIToJpFoYUvavTedBrL3FFtBiYNZAVgnddGRIG4efLSW+f95g0VTU7AI7df/Gx8SYw==}
 
   '@jridgewell/gen-mapping@0.3.3':
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
@@ -1886,8 +1886,8 @@ packages:
   sanitize-html@2.13.0:
     resolution: {integrity: sha512-Xff91Z+4Mz5QiNSLdLWwjgBDm5b1RU6xBT0+12rapjiaR7SwfRdjw8f+6Rir2MXKLrDicRFHdb51hGOAxmsUIA==}
 
-  sanitize-html@2.13.1:
-    resolution: {integrity: sha512-ZXtKq89oue4RP7abL9wp/9URJcqQNABB5GGJ2acW1sdO8JTVl92f4ygD7Yc9Ze09VAZhnt2zegeU0tbNsdcLYg==}
+  sanitize-html@2.14.0:
+    resolution: {integrity: sha512-CafX+IUPxZshXqqRaG9ZClSlfPVjSxI0td7n07hk8QO2oO+9JDnlcL8iM8TWeOXOIBFgIOx6zioTzM53AOMn3g==}
 
   saxes@6.0.0:
     resolution: {integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==}
@@ -2679,12 +2679,12 @@ snapshots:
       dompurify: 3.1.6
       sanitize-html: 2.13.0
 
-  '@jill64/universal-sanitizer@1.3.4':
+  '@jill64/universal-sanitizer@1.3.5':
     dependencies:
       '@types/dompurify': 3.0.5
       '@types/sanitize-html': 2.13.0
       dompurify: 3.2.0
-      sanitize-html: 2.13.1
+      sanitize-html: 2.14.0
 
   '@jridgewell/gen-mapping@0.3.3':
     dependencies:
@@ -4089,7 +4089,7 @@ snapshots:
       parse-srcset: 1.0.2
       postcss: 8.4.47
 
-  sanitize-html@2.13.1:
+  sanitize-html@2.14.0:
     dependencies:
       deepmerge: 4.3.1
       escape-string-regexp: 4.0.0
