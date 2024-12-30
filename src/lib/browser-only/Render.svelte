@@ -1,15 +1,25 @@
 <script lang="ts">
+  import type T from 'universal-dompurify'
   import DOMPurify from 'universal-dompurify/browser-only'
 
-  export let html: string
-  export let config: DOMPurify.Config | undefined = undefined
+  let {
+    html,
+    config = undefined
+  }: {
+    html: string
+    config?: Parameters<(typeof T)['sanitize']>[1]
+  } = $props()
 
-  $: sanitized =
-    DOMPurify?.sanitize?.(html, {
-      ...config,
-      RETURN_DOM: false,
-      RETURN_DOM_FRAGMENT: false
-    }) ?? ''
+  let sanitized = $state('')
+
+  $effect(() => {
+    sanitized =
+      DOMPurify?.sanitize?.(html, {
+        ...config,
+        RETURN_DOM: false,
+        RETURN_DOM_FRAGMENT: false
+      }) ?? ''
+  })
 </script>
 
 <!-- eslint-disable-next-line svelte/no-at-html-tags -->
