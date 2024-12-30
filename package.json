@@ -31,11 +31,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-purify.git",
-    "image": "https://opengraph.githubassets.com/bdff04707205208eb5af485da6c969f8ca3ce5b626f6212c5704153e42875210/jill64/svelte-purify"
+    "image": "https://opengraph.githubassets.com/a02bb2df8727c8972f60851a3e4bf77fe132286d695e90dabb8f14c426581d42/jill64/svelte-purify"
   },
   "keywords": [
     "dom",
     "html",
+    "library",
     "node",
     "sanitize",
     "svelte",
@@ -58,7 +59,7 @@
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "2.0.1",
-    "@jill64/npm-demo-layout": "1.0.249",
+    "@jill64/npm-demo-layout": "2.0.1",
     "@jill64/playwright-config": "2.4.2",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-edge": "1.2.55",
