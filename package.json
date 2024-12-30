@@ -50,11 +50,11 @@
     "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
     "check": "svelte-kit sync && npx svelte-check",
     "lint": "npm run check && npx eslint .",
-    "format": "npx @jill64/psx",
+    "format": "npx psvx",
     "test": "playwright test"
   },
   "peerDependencies": {
-    "svelte": "^4.0.0"
+    "svelte": "^5.0.0"
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "2.0.1",
@@ -66,12 +66,12 @@
     "@playwright/test": "1.49.1",
     "@sveltejs/adapter-vercel": "5.5.2",
     "@sveltejs/kit": "2.15.1",
-    "svelte": "4.2.19",
+    "svelte": "5.16.0",
     "typescript": "5.7.2",
-    "vite": "5.4.8",
-    "@sveltejs/vite-plugin-svelte": "3.1.2"
+    "vite": "6.0.6",
+    "@sveltejs/vite-plugin-svelte": "5.0.3"
   },
   "dependencies": {
-    "universal-dompurify": "1.0.20"
+    "universal-dompurify": "1.0.22"
   }
 }
