@@ -73,6 +73,6 @@
     "@sveltejs/vite-plugin-svelte": "5.0.3"
   },
   "dependencies": {
-    "universal-dompurify": "1.0.22"
+    "universal-dompurify": "1.0.23"
   }
 }
