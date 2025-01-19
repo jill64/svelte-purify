@@ -16,8 +16,8 @@ importers:
         specifier: 2.0.4
         version: 2.0.4(svelte@5.16.2)(typescript@5.7.3)
       '@jill64/npm-demo-layout':
-        specifier: 2.0.9
-        version: 2.0.9(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)
+        specifier: 2.0.10
+        version: 2.0.10(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)
       '@jill64/playwright-config':
         specifier: 2.4.2
         version: 2.4.2(@playwright/test@1.49.1)
@@ -494,8 +494,8 @@ packages:
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0
 
-  '@jill64/npm-demo-layout@2.0.9':
-    resolution: {integrity: sha512-vvSudA+SkIPE56iJqGO95O7QL5DCdsGHgXGIzYTIWkiwwyQGOL6KudQOp1ZBJbk/CVm45V+9ME4wsJSJiA2txg==}
+  '@jill64/npm-demo-layout@2.0.10':
+    resolution: {integrity: sha512-yUUUgEDSv7z3bxi3KxAU275J4mv9Z9PQHEIIVlEs4Pp3dmfXhj+vflrgumuW/K94ZOmspaBGXigScU6Kss/Hww==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^5.0.0
@@ -540,8 +540,8 @@ packages:
     peerDependencies:
       svelte: ^5.0.0
 
-  '@jill64/svelte-ogp@2.0.1':
-    resolution: {integrity: sha512-DuvtcIdh1U9cR4k3+lgrXuljjkVdd4F5uAVYF9/4fudbP0/ekcPk6h7BAT5fbJ8FgZLo/PYKuGeqWxzkYctfYQ==}
+  '@jill64/svelte-ogp@2.0.2':
+    resolution: {integrity: sha512-BGXZ+NBu1H5Sks3ZunwcTWJiLQugi+k9FizpqS1A/bKj2NBmSU88uJF+4Jibs9D00Spy+nJ96nZC0ASGtiyxUA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^5.0.0
@@ -2692,11 +2692,11 @@ snapshots:
       - ts-node
       - typescript
 
-  '@jill64/npm-demo-layout@2.0.9(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)':
+  '@jill64/npm-demo-layout@2.0.10(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)':
     dependencies:
       '@jill64/svelte-dark-theme': 5.1.1(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)
       '@jill64/svelte-menu': 2.0.0(svelte@5.16.2)
-      '@jill64/svelte-ogp': 2.0.1(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)
+      '@jill64/svelte-ogp': 2.0.2(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)
       '@jill64/svelte-sanitize': 2.1.1(svelte@5.16.2)
       '@jill64/svelte-toast': 2.1.5(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30))
@@ -2762,7 +2762,7 @@ snapshots:
     dependencies:
       svelte: 5.16.2
 
-  '@jill64/svelte-ogp@2.0.1(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)':
+  '@jill64/svelte-ogp@2.0.2(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)':
     dependencies:
       '@jill64/svelte-html': 2.0.0(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30)))(svelte@5.16.2)(vite@6.0.7(@types/node@20.11.30))
