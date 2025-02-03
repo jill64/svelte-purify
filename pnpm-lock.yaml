@@ -34,8 +34,8 @@ importers:
         specifier: 1.50.1
         version: 1.50.1
       '@sveltejs/adapter-vercel':
-        specifier: 5.6.0
-        version: 5.6.0(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30)))(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30)))(rollup@4.29.1)
+        specifier: 5.6.1
+        version: 5.6.1(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30)))(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30)))(rollup@4.29.1)
       '@sveltejs/kit':
         specifier: 2.16.1
         version: 2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30)))(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30))
@@ -998,8 +998,8 @@ packages:
     peerDependencies:
       svelte: 3.x || 4.x || 5.x
 
-  '@sveltejs/adapter-vercel@5.6.0':
-    resolution: {integrity: sha512-tgPT5Pyi0pQcaEf/3TWhQfCFQo++CxHPHvlDTMcE0yajJETRGBHFDZKn3hCsnX3NDCxgd9mr/jtHwOTBwIEeBg==}
+  '@sveltejs/adapter-vercel@5.6.1':
+    resolution: {integrity: sha512-ljeLT7p4VQtO9ux4p7MqSkNv+yMw9LcD0K8hl0TK495DhBbaBwOCx9jcp3+/RqGPzsTvTRJSiPRafIfiCjQqjQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
 
@@ -3302,7 +3302,7 @@ snapshots:
       magic-string: 0.30.17
       svelte: 5.19.6
 
-  '@sveltejs/adapter-vercel@5.6.0(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30)))(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30)))(rollup@4.29.1)':
+  '@sveltejs/adapter-vercel@5.6.1(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30)))(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30)))(rollup@4.29.1)':
     dependencies:
       '@sveltejs/kit': 2.16.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30)))(svelte@5.19.6)(vite@6.0.11(@types/node@20.11.30))
       '@vercel/nft': 0.29.0(rollup@4.29.1)
