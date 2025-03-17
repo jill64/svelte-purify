@@ -67,7 +67,7 @@
     "@playwright/test": "1.51.0",
     "@sveltejs/adapter-vercel": "5.6.3",
     "@sveltejs/kit": "2.19.2",
-    "svelte": "5.23.0",
+    "svelte": "5.23.1",
     "typescript": "5.8.2",
     "vite": "6.2.2",
     "@sveltejs/vite-plugin-svelte": "5.0.3"
