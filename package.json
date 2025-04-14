@@ -31,7 +31,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-purify.git",
-    "image": "https://opengraph.githubassets.com/a2025346a63f3525840c3f34a4b4e91d6c4db5751a144c70c44414096ced8391/jill64/svelte-purify"
+    "image": "https://opengraph.githubassets.com/9a919647bb24d2e008bdcc4f8b07f8c78e1438eb4ddb65f9c93fdc377daa5ccc/jill64/svelte-purify"
   },
   "keywords": [
     "dom",
@@ -66,7 +66,7 @@
     "@jill64/universal-sanitizer": "1.4.3",
     "@playwright/test": "1.51.0",
     "@sveltejs/adapter-vercel": "5.7.0",
-    "@sveltejs/kit": "2.20.5",
+    "@sveltejs/kit": "2.20.6",
     "svelte": "5.23.1",
     "typescript": "5.8.3",
     "vite": "6.2.6",
