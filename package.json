@@ -31,7 +31,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-purify.git",
-    "image": "https://opengraph.githubassets.com/1b89bd195f6386c60ad3c3f37c89f35c3afefd5c90174a48ba0234d9a5e21eaf/jill64/svelte-purify"
+    "image": "https://opengraph.githubassets.com/f2b5c0ff968c16306a3226e940142bb83f055c6c882dd6ad2309b6ffbbf62c18/jill64/svelte-purify"
   },
   "keywords": [
     "dom",
@@ -69,7 +69,7 @@
     "@sveltejs/kit": "2.20.7",
     "svelte": "5.23.1",
     "typescript": "5.8.3",
-    "vite": "6.3.0",
+    "vite": "6.3.1",
     "@sveltejs/vite-plugin-svelte": "5.0.3"
   },
   "dependencies": {
