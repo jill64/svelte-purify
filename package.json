@@ -58,7 +58,7 @@
     "svelte": "^5.0.0"
   },
   "devDependencies": {
-    "@jill64/eslint-config-svelte": "2.2.11",
+    "@jill64/eslint-config-svelte": "2.2.12",
     "@jill64/npm-demo-layout": "2.0.23",
     "@jill64/playwright-config": "3.0.0",
     "@jill64/prettier-config": "1.0.0",

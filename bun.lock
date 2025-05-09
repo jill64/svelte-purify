@@ -7,7 +7,7 @@
         "universal-dompurify": "1.0.25",
       },
       "devDependencies": {
-        "@jill64/eslint-config-svelte": "2.2.11",
+        "@jill64/eslint-config-svelte": "2.2.12",
         "@jill64/npm-demo-layout": "2.0.23",
         "@jill64/playwright-config": "3.0.0",
         "@jill64/prettier-config": "1.0.0",
@@ -141,7 +141,7 @@
 
     "@isaacs/fs-minipass": ["@isaacs/fs-minipass@4.0.1", "", { "dependencies": { "minipass": "^7.0.4" } }, "sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w=="],
 
-    "@jill64/eslint-config-svelte": ["@jill64/eslint-config-svelte@2.2.11", "", { "dependencies": { "@eslint/js": "9.22.0", "@types/eslint": "9.6.1", "eslint": "9.22.0", "eslint-config-prettier": "10.1.3", "eslint-plugin-svelte": "3.4.1", "svelte-eslint-parser": "1.0.1", "typescript-eslint": "8.26.1" }, "peerDependencies": { "svelte": "^5.0.0" } }, "sha512-o9B8OtkcvlqeYVKs3XVPsI8kG5f7F+3Vz18mpi5Ldwzmk4moc+hzLx1Azu9iZaP4uaQ6QOSw1sF5DOIm6KPABQ=="],
+    "@jill64/eslint-config-svelte": ["@jill64/eslint-config-svelte@2.2.12", "", { "dependencies": { "@eslint/js": "9.22.0", "@types/eslint": "9.6.1", "eslint": "9.22.0", "eslint-config-prettier": "10.1.5", "eslint-plugin-svelte": "3.4.1", "svelte-eslint-parser": "1.0.1", "typescript-eslint": "8.26.1" }, "peerDependencies": { "svelte": "^5.0.0" } }, "sha512-71cNUwG7gJ4cVTpKzR13mvQNKNphFoM9Pl9D0jBrEGYYsUQD81UQzESICnd1g4uGDs2s5Mz1YcXeQ94xp+J9lQ=="],
 
     "@jill64/npm-demo-layout": ["@jill64/npm-demo-layout@2.0.23", "", { "dependencies": { "@jill64/svelte-dark-theme": "5.1.7", "@jill64/svelte-menu": "2.0.1", "@jill64/svelte-ogp": "2.0.2", "@jill64/svelte-sanitize": "2.1.4", "@jill64/svelte-toast": "2.1.6", "svelte-code-copy": "2.2.0", "svelte-highlight": "7.8.3", "svelte-highlight-switcher": "1.3.5" }, "peerDependencies": { "@sveltejs/kit": "^2.20.6", "svelte": "^5.0.0" } }, "sha512-Fh6gKqsLl9NH+HlSta+t+3YKXSlD6T0woLP/7H9eNvGchTknYPkcFASWlVWhmGNlmsu17KBaPdcyz/opkQmRTA=="],
 
@@ -493,7 +493,7 @@
 
     "eslint-compat-utils": ["eslint-compat-utils@0.6.4", "", { "dependencies": { "semver": "^7.5.4" }, "peerDependencies": { "eslint": ">=6.0.0" } }, "sha512-/u+GQt8NMfXO8w17QendT4gvO5acfxQsAKirAt0LVxDnr2N8YLCVbregaNc/Yhp7NM128DwCaRvr8PLDfeNkQw=="],
 
-    "eslint-config-prettier": ["eslint-config-prettier@10.1.3", "", { "peerDependencies": { "eslint": ">=7.0.0" }, "bin": { "eslint-config-prettier": "bin/cli.js" } }, "sha512-vDo4d9yQE+cS2tdIT4J02H/16veRvkHgiLDRpej+WL67oCfbOb97itZXn8wMPJ/GsiEBVjrjs//AVNw2Cp1EcA=="],
+    "eslint-config-prettier": ["eslint-config-prettier@10.1.5", "", { "peerDependencies": { "eslint": ">=7.0.0" }, "bin": { "eslint-config-prettier": "bin/cli.js" } }, "sha512-zc1UmCpNltmVY34vuLRV61r1K27sWuX39E+uyUnY8xS2Bex88VV9cugG+UZbRSRGtGyFboj+D8JODyme1plMpw=="],
 
     "eslint-plugin-svelte": ["eslint-plugin-svelte@3.4.1", "", { "dependencies": { "@eslint-community/eslint-utils": "^4.4.1", "@jridgewell/sourcemap-codec": "^1.5.0", "eslint-compat-utils": "^0.6.4", "esutils": "^2.0.3", "known-css-properties": "^0.35.0", "postcss": "^8.4.49", "postcss-load-config": "^3.1.4", "postcss-safe-parser": "^7.0.0", "semver": "^7.6.3", "svelte-eslint-parser": "^1.1.1" }, "peerDependencies": { "eslint": "^8.57.1 || ^9.0.0", "svelte": "^3.37.0 || ^4.0.0 || ^5.0.0" }, "optionalPeers": ["svelte"] }, "sha512-wgbRwN/6FampBBiIuuLSmp4QRqmuHuexbuRJwx+kqzsxKOhakU8o8sVgGhsf/bQiZkOmWF/5Mrj2CHmVMwY+YQ=="],
 
